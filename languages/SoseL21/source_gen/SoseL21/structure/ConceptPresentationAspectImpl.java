@@ -9,10 +9,13 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
+  private ConceptPresentation props_BiExpr;
   private ConceptPresentation props_BooleanVariable;
   private ConceptPresentation props_IntegerVariable;
+  private ConceptPresentation props_Number;
   private ConceptPresentation props_Reference;
   private ConceptPresentation props_Statement;
+  private ConceptPresentation props_UnnamedInt;
   private ConceptPresentation props_Worksheet;
 
   @Override
@@ -20,6 +23,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   public ConceptPresentation getDescriptor(SAbstractConcept c) {
     StructureAspectDescriptor structureDescriptor = (StructureAspectDescriptor) myLanguageRuntime.getAspect(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.class);
     switch (structureDescriptor.internalIndex(c)) {
+      case LanguageConceptSwitch.BiExpr:
+        if (props_BiExpr == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_BiExpr = cpb.create();
+        }
+        return props_BiExpr;
       case LanguageConceptSwitch.BooleanVariable:
         if (props_BooleanVariable == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -34,6 +44,12 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_IntegerVariable = cpb.create();
         }
         return props_IntegerVariable;
+      case LanguageConceptSwitch.Number:
+        if (props_Number == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          props_Number = cpb.create();
+        }
+        return props_Number;
       case LanguageConceptSwitch.Reference:
         if (props_Reference == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -47,6 +63,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Statement = cpb.create();
         }
         return props_Statement;
+      case LanguageConceptSwitch.UnnamedInt:
+        if (props_UnnamedInt == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_UnnamedInt = cpb.create();
+        }
+        return props_UnnamedInt;
       case LanguageConceptSwitch.Worksheet:
         if (props_Worksheet == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
