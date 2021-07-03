@@ -33,16 +33,6 @@
   </registry>
   <node concept="1Q5i42" id="1wbJtXI80HH">
     <property role="TrG5h" value="wk1" />
-    <node concept="1Q5i66" id="1wbJtXI80Ia" role="1Q5i2i">
-      <property role="TrG5h" value="iVar1" />
-      <property role="2uBtve" value="10" />
-      <property role="2uAJe6" value="68" />
-    </node>
-    <node concept="1Q5i66" id="42aE2Cyh5Jx" role="1Q5i2i">
-      <property role="TrG5h" value="iVar2" />
-      <property role="2uBtve" value="64" />
-      <property role="2uAJe6" value="63" />
-    </node>
     <node concept="1Q5i5p" id="1wbJtXI80Ig" role="1Q5i2i">
       <property role="TrG5h" value="bVar1" />
     </node>

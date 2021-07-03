@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8fd4970-4a21-4621-a827-643d447d16b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.mps/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/migration.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/SoseL21.mpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/Language.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/behavior/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/ConstraintsAspectDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Reference_Constraints$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Reference_Constraints$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Reference_Constraints$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Reference_Constraints$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Reference_Constraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/EditorAspectDescriptorImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$Inline_Builder0$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/structure/ConceptPresentationAspectImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/structure/LanguageConceptSwitch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/structure/StructureAspectDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/structure/aspectcps-descriptorclasses.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/structure/checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/structure/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/typesystem/TypesystemDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/typesystem/checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/typesystem/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/Generator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$PVQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$SNsQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/source_gen.caches/SoseL21/generator/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/source_gen.caches/SoseL21/generator/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/source_gen.caches/SoseL21/generator/templates/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/source_gen.caches/SoseL21/generator/templates/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/source_gen/SoseL21/generator/Generator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/source_gen/SoseL21/generator/templates/QueriesGenerated.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/source_gen/SoseL21/generator/templates/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/source_gen/SoseL21/generator/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/templates/SoseL21.generator.templates@generator.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/models/SoseL21.behavior.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/models/SoseL21.constraints.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/models/SoseL21.editor.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/models/SoseL21.structure.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/models/SoseL21.typesystem.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/behavior/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/behavior/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/constraints/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/constraints/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/editor/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/editor/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/structure/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/structure/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/typesystem/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/typesystem/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/Language.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/behavior/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/constraints/ConstraintsAspectDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/constraints/Reference_Constraints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/constraints/checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/constraints/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/editor/EditorAspectDescriptorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/editor/Reference_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/editor/Reference_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/editor/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/structure/ConceptPresentationAspectImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/structure/LanguageConceptSwitch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/structure/StructureAspectDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/structure/aspectcps-descriptorclasses.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/structure/checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/structure/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/typesystem/TypesystemDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/typesystem/checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/typesystem/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/SoSeWorksheet/models/SoSeWorksheet.Trial.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/SoSeWorksheet/models/SoSeWorksheet.Trial.mps" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ConsoleHistory">
+    <option name="tabs">
+      <list>
+        <TabState>
+          <option name="title" value="Console" />
+          <tab>
+            <model ref="33293eae-1fab-4e7a-80b6-091b898eb349/r:daf6e3c5-2c58-4ef4-a137-3b306feb36e7(TempModule33293eae-1fab-4e7a-80b6-091b898eb349/ConsoleModel_69331815705000)">
+              <persistence version="9" />
+              <languages>
+                <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
+              </languages>
+              <imports />
+              <registry>
+                <language id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base">
+                  <concept id="1583916890557930028" name="jetbrains.mps.console.base.structure.ConsoleRoot" flags="ng" index="aymSD">
+                    <child id="1583916890557930415" name="history" index="aymYE" />
+                    <child id="1583916890557930417" name="commandHolder" index="aymYO" />
+                    <child id="9025248442620242919" name="cursor" index="1PhJh3" />
+                  </concept>
+                  <concept id="5758176878586720817" name="jetbrains.mps.console.base.structure.CommandHolderRef" flags="ng" index="2_V_lH">
+                    <reference id="5758176878586720818" name="target" index="2_V_lI" />
+                  </concept>
+                  <concept id="351968380916615243" name="jetbrains.mps.console.base.structure.CommandHolder" flags="ng" index="2Clz$F" />
+                  <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
+                </language>
+              </registry>
+              <node concept="aymSD" id="1LQREd8zrNG">
+                <node concept="3balQm" id="1LQREd8zrNH" role="aymYE" />
+                <node concept="2Clz$F" id="1LQREd8zrNI" role="aymYO" />
+                <node concept="2_V_lH" id="1LQREd8zrNJ" role="1PhJh3">
+                  <ref role="2_V_lI" node="1LQREd8zrNI" resolve="CommandHolder" />
+                </node>
+              </node>
+            </model>
+          </tab>
+        </TabState>
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MPSBookmarkManager">
+    <option name="myBookmarkInfos">
+      <array>
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+      </array>
+    </option>
+  </component>
+  <component name="ProjectPluginManager">
+    <option name="pluginsState">
+      <option name="jetbrains.mps.baseLanguage.lightweightdsl.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.editor.contextActionsTool.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.execution.configurations.implementation.plugin.plugin.Plugin_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.ide.actions.Ide_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="jetbrains.mps.ide.actions.BehaviorDialogsPersistentOptions_PreferencesComponent" />
+                  <params>
+                    <option name="addReturnsOnImplement" value="false" />
+                    <option name="sortAlphabetically" value="false" />
+                    <option name="removeAttributes" value="true" />
+                  </params>
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
+        </value>
+      </option>
+      <option name="jetbrains.mps.ide.devkit.actions.Mpsdevkit_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.ide.devkit.editor.Editor_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.ide.make.actions.Make_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.lang.editor.tooltips.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.migration.workbench.plugin.Workbench_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:3feced63-76c9-43c3-bfaf-118107b568a7(SoseL21.structure) in IdeaFile[path: C:/Users/Nina Marie Stewens/MPSProjects/COP-Project/languages/SoseL21/models/SoseL21.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Solutions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sose21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:07080f9c-2fcf-445b-8873-07f5fe5e16ed(SoseL21.editor) in IdeaFile[path: C:/Users/Nina Marie Stewens/MPSProjects/COP-Project/languages/SoseL21/models/SoseL21.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Solutions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Solutions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sose21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Solutions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sose21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:b48c80a6-99d3-4734-a51a-2f6b7b6861cf(runtime) in IdeaFile[path: C:/Users/Nina Marie Stewens/MPSProjects/COP-Project/solutions/Sose21.runtime/models/runtime.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:3feced63-76c9-43c3-bfaf-118107b568a7(SoseL21.structure) in IdeaFile[path: C:/Users/Nina Marie Stewens/MPSProjects/COP-Project/languages/SoseL21/models/SoseL21.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6390243527468343047" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </SELECTED>
+        </subPane>
+      </pane>
+      <pane id="FileSystem" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="COP-Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Nina Marie Stewens\MPSProjects\COP-Project" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="COP-Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Nina Marie Stewens\MPSProjects\COP-Project" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="languages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="COP-Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Nina Marie Stewens\MPSProjects\COP-Project" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="languages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="SoseL21" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
+        <subPane />
+      </pane>
+    </panes>
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="UsagesViewTool">
+    <version id="1" />
+    <tabs />
+    <default_view_options>
+      <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+    </default_view_options>
+  </component>
+</project>
