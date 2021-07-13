@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,29,0" name="SoseL21.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:22fa5c38-a13e-4244-be0a-1b45691ce23f(SoseL21.constraints)/8659485376325975294">
+    <file name="Reference_Constraints.java">
+      <node id="8659485376325975294" at="30,34,31,33" concept="7" />
+      <node id="8962575293522686421" at="38,44,39,20" concept="4" />
+      <node id="8962575293522686421" at="46,63,47,57" concept="4" />
+      <node id="7715064924272741778" at="50,80,51,0" concept="5" />
+      <node id="7715064924273164998" at="53,47,54,122" concept="4" />
+      <node id="8962575293522711957" at="56,16,57,0" concept="5" />
+      <node id="8659485376325975294" at="61,6,62,131" concept="3" />
+      <node id="8962575293522686421" at="62,131,63,42" concept="1" />
+      <node id="8659485376325975294" at="63,42,64,22" concept="4" />
+      <node id="8659485376325975294" at="66,0,67,0" concept="6" trace="breakingNode_r0uxkx_a0a0a0a0a1a0a0a0c" />
+      <node id="8659485376325975294" at="69,0,70,0" concept="6" trace="Reference$Y7" />
+      <node id="8659485376325975294" at="70,0,71,0" concept="6" trace="SoSeWorksheet$tb" />
+      <node id="8659485376325975294" at="71,0,72,0" concept="6" trace="IExpression$u0" />
+      <node id="8659485376325975294" at="75,0,76,0" concept="6" trace="expression$Fe6m" />
+      <node id="8659485376325975294" at="76,0,77,0" concept="6" trace="contents$adPM" />
+      <node id="8659485376325975294" at="30,0,33,0" concept="0" trace="Reference_Constraints#()V" />
+      <node id="7715064924273151851" at="53,0,56,0" concept="2" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="8962575293522686421" at="37,0,41,0" concept="2" trace="hasOwnScopeProvider#()Z" />
+      <node id="8962575293522686421" at="45,0,49,0" concept="2" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="8962575293522687241" at="51,0,56,16" concept="4" />
+      <node id="8962575293522686421" at="49,0,59,0" concept="2" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="8962575293522686421" at="43,56,59,10" concept="4" />
+      <node id="8962575293522686421" at="41,0,61,0" concept="2" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="8962575293522686421" at="35,90,61,6" concept="3" />
+      <node id="8659485376325975294" at="34,0,66,0" concept="2" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="8659485376325975294" at="30,34,31,33" />
+      <scope id="8962575293522686421" at="38,44,39,20" />
+      <scope id="8962575293522686421" at="46,63,47,57" />
+      <scope id="7715064924273151852" at="53,47,54,122" />
+      <scope id="8659485376325975294" at="30,0,33,0" />
+      <scope id="7715064924273151851" at="53,0,56,0">
+        <var name="it" id="7715064924273151851" />
+      </scope>
+      <scope id="8962575293522686421" at="37,0,41,0" />
+      <scope id="8962575293522686421" at="45,0,49,0" />
+      <scope id="8962575293522686421" at="50,80,57,0" />
+      <scope id="8962575293522686421" at="49,0,59,0">
+        <var name="_context" id="8962575293522686421" />
+      </scope>
+      <scope id="8962575293522686421" at="43,56,59,10" />
+      <scope id="8962575293522686421" at="41,0,61,0" />
+      <scope id="8659485376325975294" at="35,90,64,22">
+        <var name="d0" id="8962575293522686421" />
+        <var name="references" id="8659485376325975294" />
+      </scope>
+      <scope id="8659485376325975294" at="34,0,66,0" />
+      <unit id="7715064924273151851" at="52,281,56,13" name="SoseL21.constraints.Reference_Constraints$1$1$1" />
+      <unit id="8659485376325975294" at="74,0,78,0" name="SoseL21.constraints.Reference_Constraints$LINKS" />
+      <unit id="8659485376325975294" at="68,0,73,0" name="SoseL21.constraints.Reference_Constraints$CONCEPTS" />
+      <unit id="8962575293522686421" at="44,19,59,9" name="SoseL21.constraints.Reference_Constraints$1$1" />
+      <unit id="8962575293522686421" at="36,48,61,5" name="SoseL21.constraints.Reference_Constraints$1" />
+      <unit id="8659485376325975294" at="29,0,79,0" name="SoseL21.constraints.Reference_Constraints" />
+    </file>
+  </root>
+</debug-info>
+
