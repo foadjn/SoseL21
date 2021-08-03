@@ -23,7 +23,6 @@ import java.util.HashMap;
 import jetbrains.mps.smodel.SNodePointer;
 import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import org.jetbrains.mps.openapi.language.SInterfaceConcept;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public class Reference_Constraints extends BaseConstraintsDescriptor {
@@ -49,9 +48,9 @@ public class Reference_Constraints extends BaseConstraintsDescriptor {
           @Override
           public Scope createScope(final ReferenceConstraintsContext _context) {
 
-            return ListScope.forNamedElements(Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getChildren(SNodeOperations.getNodeAncestor(_context.getContextNode(), CONCEPTS.SoSeWorksheet$tb, false, false), LINKS.contents$adPM), CONCEPTS.IExpression$u0)).where(new IWhereFilter<SNode>() {
+            return ListScope.forNamedElements(Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getChildren(SNodeOperations.getNodeAncestor(_context.getContextNode(), CONCEPTS.SoSeWorksheet$tb, false, false), LINKS.contents$adPM), CONCEPTS.VariableDeclaration$DC)).where(new IWhereFilter<SNode>() {
               public boolean accept(SNode it) {
-                return SNodeOperations.getIndexInParent(it) < SNodeOperations.getIndexInParent(_context.getContextNode());
+                return SNodeOperations.getIndexInParent(it) > SNodeOperations.getIndexInParent(SLinkOperations.getTarget(_context.getReferenceNode(), LINKS.expression$Fe6m));
               }
             }));
 
@@ -68,7 +67,7 @@ public class Reference_Constraints extends BaseConstraintsDescriptor {
   private static final class CONCEPTS {
     /*package*/ static final SConcept Reference$Y7 = MetaAdapterFactory.getConcept(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x782cac11e1965871L, "SoseL21.structure.Reference");
     /*package*/ static final SConcept SoSeWorksheet$tb = MetaAdapterFactory.getConcept(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x782cac11e1965857L, "SoseL21.structure.SoSeWorksheet");
-    /*package*/ static final SInterfaceConcept IExpression$u0 = MetaAdapterFactory.getInterfaceConcept(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x58aeb4a19afd5f07L, "SoseL21.structure.IExpression");
+    /*package*/ static final SConcept VariableDeclaration$DC = MetaAdapterFactory.getConcept(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x58aeb4a19afd5f0aL, "SoseL21.structure.VariableDeclaration");
   }
 
   private static final class LINKS {
