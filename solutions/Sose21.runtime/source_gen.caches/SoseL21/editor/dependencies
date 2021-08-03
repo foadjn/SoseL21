@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="SoseL21.editor.BiExpr_Editor" />
+  <dependency className="SoseL21.editor.BiExpr_EditorBuilder_a" />
+  <dependency className="SoseL21.editor.Boolean_Editor" />
+  <dependency className="SoseL21.editor.Boolean_EditorBuilder_a" />
+  <dependency className="SoseL21.editor.EditorAspectDescriptorImpl">
+    <classNode dependClassName="java.util.Collection" />
+  </dependency>
+  <dependency className="SoseL21.editor.Integer_Editor" />
+  <dependency className="SoseL21.editor.Integer_EditorBuilder_a" />
+  <dependency className="SoseL21.editor.Number_Editor" />
+  <dependency className="SoseL21.editor.Number_EditorBuilder_a" />
+  <dependency className="SoseL21.editor.Reference_Editor" />
+  <dependency className="SoseL21.editor.Reference_EditorBuilder_a" />
+  <dependency className="SoseL21.editor.SoSeWorksheet_Editor" />
+  <dependency className="SoseL21.editor.SoSeWorksheet_EditorBuilder_a">
+    <classNode dependClassName="java.lang.Object" />
+  </dependency>
+  <dependency className="SoseL21.editor.UnnamedInt_Editor" />
+  <dependency className="SoseL21.editor.UnnamedInt_EditorBuilder_a" />
+</dependenciesRoot>
+

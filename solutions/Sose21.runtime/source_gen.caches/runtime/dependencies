@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="runtime.wk1" />
+  <dependency className="runtime.wk2" />
+</dependenciesRoot>
+

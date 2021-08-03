@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <root nodeRef="r:9e0422ae-6afe-4f7f-8517-fa4a03fae82a(SoseL21.structure)/4806153385209664104">
+    <file name="StructureAspectDescriptor.java">
+      <node id="4806153385209664107" at="8,0,9,0" concept="2" trace="myConceptBiExpr" />
+      <node id="4806153385209664111" at="9,0,10,0" concept="2" trace="myConceptBoolean" />
+      <node id="4806153385209664115" at="10,0,11,0" concept="2" trace="myConceptIStatement" />
+      <node id="4806153385209664119" at="11,0,12,0" concept="2" trace="myConceptInteger" />
+      <node id="4806153385209664123" at="12,0,13,0" concept="2" trace="myConceptNumber" />
+      <node id="4806153385209664127" at="13,0,14,0" concept="2" trace="myConceptReference" />
+      <node id="4806153385209664131" at="14,0,15,0" concept="2" trace="myConceptSoSeWorksheet" />
+      <node id="4806153385209664135" at="15,0,16,0" concept="2" trace="myConceptUnnamedInt" />
+      <node id="4806153385209664139" at="16,0,17,0" concept="2" trace="myIndexSwitch" />
+      <node id="4806153385209664146" at="17,38,18,83" concept="1" />
+      <node id="4806153385209664156" at="21,41,22,84" concept="1" />
+      <node id="4806153385209664166" at="25,40,26,91" concept="6" />
+      <node id="4806153385209664192" at="32,91,33,16" concept="6" />
+      <node id="4806153385209664197" at="34,91,35,16" concept="6" />
+      <node id="4806153385209664202" at="36,91,37,16" concept="6" />
+      <node id="4806153385209664207" at="38,91,39,16" concept="6" />
+      <node id="4806153385209664212" at="40,91,41,16" concept="6" />
+      <node id="4806153385209664217" at="42,91,43,16" concept="6" />
+      <node id="4806153385209664222" at="44,91,45,16" concept="6" />
+      <node id="4806153385209664227" at="46,91,47,16" concept="6" />
+      <node id="4806153385209664229" at="48,14,49,20" concept="6" />
+      <node id="4806153385209664237" at="52,37,53,91" concept="6" />
+      <node id="4806153385209664244" at="55,47,56,85" concept="5" />
+      <node id="4806153385209664252" at="56,85,57,84" concept="1" />
+      <node id="4806153385209664257" at="57,84,58,84" concept="1" />
+      <node id="4806153385209664262" at="58,84,59,84" concept="1" />
+      <node id="4806153385209664265" at="59,84,60,84" concept="1" />
+      <node id="4806153385209664268" at="60,84,61,199" concept="1" />
+      <node id="4806153385209664285" at="61,199,62,199" concept="1" />
+      <node id="4806153385209664302" at="62,199,63,84" concept="1" />
+      <node id="4806153385209664305" at="63,84,64,91" concept="6" />
+      <node id="4806153385209664312" at="66,48,67,85" concept="5" />
+      <node id="4806153385209664320" at="67,85,68,84" concept="1" />
+      <node id="4806153385209664325" at="68,84,69,84" concept="1" />
+      <node id="4806153385209664330" at="69,84,70,84" concept="1" />
+      <node id="4806153385209664333" at="70,84,71,84" concept="1" />
+      <node id="4806153385209664336" at="71,84,72,84" concept="1" />
+      <node id="4806153385209664339" at="72,84,73,91" concept="6" />
+      <node id="4806153385209664346" at="75,51,76,85" concept="5" />
+      <node id="4806153385209664354" at="76,85,77,84" concept="1" />
+      <node id="4806153385209664356" at="77,84,78,84" concept="1" />
+      <node id="4806153385209664361" at="78,84,79,84" concept="1" />
+      <node id="4806153385209664364" at="79,84,80,84" concept="1" />
+      <node id="4806153385209664367" at="80,84,81,91" concept="6" />
+      <node id="4806153385209664374" at="83,48,84,85" concept="5" />
+      <node id="4806153385209664382" at="84,85,85,84" concept="1" />
+      <node id="4806153385209664387" at="85,84,86,84" concept="1" />
+      <node id="4806153385209664393" at="86,84,87,84" concept="1" />
+      <node id="4806153385209664398" at="87,84,88,84" concept="1" />
+      <node id="4806153385209664401" at="88,84,89,84" concept="1" />
+      <node id="4806153385209664404" at="89,84,90,84" concept="1" />
+      <node id="4806153385209664407" at="90,84,91,91" concept="6" />
+      <node id="4806153385209664414" at="93,47,94,85" concept="5" />
+      <node id="4806153385209664422" at="94,85,95,84" concept="1" />
+      <node id="4806153385209664427" at="95,84,96,84" concept="1" />
+      <node id="4806153385209664432" at="96,84,97,84" concept="1" />
+      <node id="4806153385209664435" at="97,84,98,84" concept="1" />
+      <node id="4806153385209664438" at="98,84,99,202" concept="1" />
+      <node id="4806153385209664450" at="99,202,100,84" concept="1" />
+      <node id="4806153385209664453" at="100,84,101,91" concept="6" />
+      <node id="4806153385209664460" at="103,50,104,85" concept="5" />
+      <node id="4806153385209664468" at="104,85,105,84" concept="1" />
+      <node id="4806153385209664473" at="105,84,106,84" concept="1" />
+      <node id="4806153385209664478" at="106,84,107,84" concept="1" />
+      <node id="4806153385209664481" at="107,84,108,84" concept="1" />
+      <node id="4806153385209664484" at="108,84,109,199" concept="1" />
+      <node id="4806153385209664501" at="109,199,110,84" concept="1" />
+      <node id="4806153385209664504" at="110,84,111,91" concept="6" />
+      <node id="4806153385209664511" at="113,54,114,85" concept="5" />
+      <node id="4806153385209664519" at="114,85,115,84" concept="1" />
+      <node id="4806153385209664524" at="115,84,116,84" concept="1" />
+      <node id="4806153385209664529" at="116,84,117,84" concept="1" />
+      <node id="4806153385209664532" at="117,84,118,84" concept="1" />
+      <node id="4806153385209664535" at="118,84,119,218" concept="1" />
+      <node id="4806153385209664558" at="119,218,120,84" concept="1" />
+      <node id="4806153385209664561" at="120,84,121,91" concept="6" />
+      <node id="4806153385209664568" at="123,51,124,85" concept="5" />
+      <node id="4806153385209664576" at="124,85,125,84" concept="1" />
+      <node id="4806153385209664581" at="125,84,126,84" concept="1" />
+      <node id="4806153385209664587" at="126,84,127,84" concept="1" />
+      <node id="4806153385209664592" at="127,84,128,84" concept="1" />
+      <node id="4806153385209664595" at="128,84,129,84" concept="1" />
+      <node id="4806153385209664598" at="129,84,130,91" concept="6" />
+      <node id="4806153385209664143" at="17,0,20,0" concept="0" trace="StructureAspectDescriptor#()V" />
+      <node id="4806153385209664233" at="52,0,55,0" concept="4" trace="internalIndex#()I" />
+      <node id="4806153385209664151" at="20,0,24,0" concept="4" trace="reportDependencies#()V" />
+      <node id="4806153385209664163" at="24,0,28,0" concept="4" trace="getDescriptors#()Ljava/util/Collection;" />
+      <node id="4806153385209664343" at="75,0,83,0" concept="8" trace="createDescriptorForIStatement#()" />
+      <node id="4806153385209664309" at="66,0,75,0" concept="8" trace="createDescriptorForBoolean#()" />
+      <node id="4806153385209664565" at="123,0,132,0" concept="8" trace="createDescriptorForUnnamedInt#()" />
+      <node id="4806153385209664371" at="83,0,93,0" concept="8" trace="createDescriptorForInteger#()" />
+      <node id="4806153385209664411" at="93,0,103,0" concept="8" trace="createDescriptorForNumber#()" />
+      <node id="4806153385209664457" at="103,0,113,0" concept="8" trace="createDescriptorForReference#()" />
+      <node id="4806153385209664508" at="113,0,123,0" concept="8" trace="createDescriptorForSoSeWorksheet#()" />
+      <node id="4806153385209664241" at="55,0,66,0" concept="8" trace="createDescriptorForBiExpr#()" />
+      <node id="4806153385209664187" at="30,30,50,5" concept="9" />
+      <node id="4806153385209664179" at="28,0,52,0" concept="4" trace="getDescriptor#()" />
+      <scope id="4806153385209664145" at="17,38,18,83" />
+      <scope id="4806153385209664155" at="21,41,22,84" />
+      <scope id="4806153385209664165" at="25,40,26,91" />
+      <scope id="4806153385209664191" at="32,91,33,16" />
+      <scope id="4806153385209664196" at="34,91,35,16" />
+      <scope id="4806153385209664201" at="36,91,37,16" />
+      <scope id="4806153385209664206" at="38,91,39,16" />
+      <scope id="4806153385209664211" at="40,91,41,16" />
+      <scope id="4806153385209664216" at="42,91,43,16" />
+      <scope id="4806153385209664221" at="44,91,45,16" />
+      <scope id="4806153385209664226" at="46,91,47,16" />
+      <scope id="4806153385209664188" at="48,14,49,20" />
+      <scope id="4806153385209664236" at="52,37,53,91" />
+      <scope id="4806153385209664143" at="17,0,20,0" />
+      <scope id="4806153385209664233" at="52,0,55,0">
+        <var name="c" id="4806153385209664234" />
+      </scope>
+      <scope id="4806153385209664151" at="20,0,24,0">
+        <var name="deps" id="4806153385209664153" />
+      </scope>
+      <scope id="4806153385209664163" at="24,0,28,0" />
+      <scope id="4806153385209664344" at="75,51,81,91">
+        <var name="b" id="4806153385209664345" />
+      </scope>
+      <scope id="4806153385209664310" at="66,48,73,91">
+        <var name="b" id="4806153385209664311" />
+      </scope>
+      <scope id="4806153385209664566" at="123,51,130,91">
+        <var name="b" id="4806153385209664567" />
+      </scope>
+      <scope id="4806153385209664343" at="75,0,83,0" />
+      <scope id="4806153385209664372" at="83,48,91,91">
+        <var name="b" id="4806153385209664373" />
+      </scope>
+      <scope id="4806153385209664412" at="93,47,101,91">
+        <var name="b" id="4806153385209664413" />
+      </scope>
+      <scope id="4806153385209664458" at="103,50,111,91">
+        <var name="b" id="4806153385209664459" />
+      </scope>
+      <scope id="4806153385209664509" at="113,54,121,91">
+        <var name="b" id="4806153385209664510" />
+      </scope>
+      <scope id="4806153385209664242" at="55,47,64,91">
+        <var name="b" id="4806153385209664243" />
+      </scope>
+      <scope id="4806153385209664309" at="66,0,75,0" />
+      <scope id="4806153385209664565" at="123,0,132,0" />
+      <scope id="4806153385209664371" at="83,0,93,0" />
+      <scope id="4806153385209664411" at="93,0,103,0" />
+      <scope id="4806153385209664457" at="103,0,113,0" />
+      <scope id="4806153385209664508" at="113,0,123,0" />
+      <scope id="4806153385209664241" at="55,0,66,0" />
+      <scope id="4806153385209664184" at="30,30,50,5" />
+      <scope id="4806153385209664179" at="28,0,52,0">
+        <var name="id" id="4806153385209664182" />
+      </scope>
+      <unit id="4806153385209664104" at="7,0,133,0" name="SoseL21.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:9e0422ae-6afe-4f7f-8517-fa4a03fae82a(SoseL21.structure)/4806153385209666005">
+    <file name="LanguageConceptSwitch.java">
+      <node id="4806153385209666007" at="7,0,8,0" concept="2" trace="myIndex" />
+      <node id="4806153385209666011" at="8,0,9,0" concept="7" trace="BiExpr" />
+      <node id="4806153385209666015" at="9,0,10,0" concept="7" trace="Boolean" />
+      <node id="4806153385209666019" at="10,0,11,0" concept="7" trace="IStatement" />
+      <node id="4806153385209666023" at="11,0,12,0" concept="7" trace="Integer" />
+      <node id="4806153385209666027" at="12,0,13,0" concept="7" trace="Number" />
+      <node id="4806153385209666031" at="13,0,14,0" concept="7" trace="Reference" />
+      <node id="4806153385209666035" at="14,0,15,0" concept="7" trace="SoSeWorksheet" />
+      <node id="4806153385209666039" at="15,0,16,0" concept="7" trace="UnnamedInt" />
+      <node id="4806153385209666047" at="16,34,17,91" concept="5" />
+      <node id="4806153385209666052" at="17,91,18,84" concept="1" />
+      <node id="4806153385209666056" at="18,84,19,84" concept="1" />
+      <node id="4806153385209666060" at="19,84,20,84" concept="1" />
+      <node id="4806153385209666064" at="20,84,21,84" concept="1" />
+      <node id="4806153385209666068" at="21,84,22,84" concept="1" />
+      <node id="4806153385209666072" at="22,84,23,84" concept="1" />
+      <node id="4806153385209666076" at="23,84,24,84" concept="1" />
+      <node id="4806153385209666080" at="24,84,25,84" concept="1" />
+      <node id="4806153385209666084" at="25,84,26,87" concept="1" />
+      <node id="4806153385209666093" at="28,31,29,91" concept="6" />
+      <node id="4806153385209666101" at="31,30,32,91" concept="6" />
+      <node id="4806153385209666089" at="28,0,31,0" concept="4" trace="index#()I" />
+      <node id="4806153385209666097" at="31,0,34,0" concept="4" trace="index#()I" />
+      <node id="4806153385209666043" at="16,0,28,0" concept="0" trace="LanguageConceptSwitch#()V" />
+      <scope id="4806153385209666092" at="28,31,29,91" />
+      <scope id="4806153385209666100" at="31,30,32,91" />
+      <scope id="4806153385209666089" at="28,0,31,0">
+        <var name="cid" id="4806153385209666090" />
+      </scope>
+      <scope id="4806153385209666097" at="31,0,34,0">
+        <var name="concept" id="4806153385209666098" />
+      </scope>
+      <scope id="4806153385209666045" at="16,34,26,87">
+        <var name="builder" id="4806153385209666046" />
+      </scope>
+      <scope id="4806153385209666043" at="16,0,28,0" />
+      <unit id="4806153385209666005" at="6,0,35,0" name="SoseL21.structure.LanguageConceptSwitch" />
+    </file>
+  </root>
+  <root nodeRef="r:9e0422ae-6afe-4f7f-8517-fa4a03fae82a(SoseL21.structure)/4806153385209666553">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="4806153385209666556" at="7,0,8,0" concept="2" trace="props_BiExpr" />
+      <node id="4806153385209666560" at="8,0,9,0" concept="2" trace="props_Boolean" />
+      <node id="4806153385209666564" at="9,0,10,0" concept="2" trace="props_IStatement" />
+      <node id="4806153385209666568" at="10,0,11,0" concept="2" trace="props_Integer" />
+      <node id="4806153385209666572" at="11,0,12,0" concept="2" trace="props_Number" />
+      <node id="4806153385209666576" at="12,0,13,0" concept="2" trace="props_Reference" />
+      <node id="4806153385209666580" at="13,0,14,0" concept="2" trace="props_SoSeWorksheet" />
+      <node id="4806153385209666584" at="14,0,15,0" concept="2" trace="props_UnnamedInt" />
+      <node id="4806153385209666595" at="17,29,18,110" concept="5" />
+      <node id="4806153385209666616" at="21,23,22,93" concept="5" />
+      <node id="4806153385209666619" at="22,93,23,90" concept="1" />
+      <node id="4806153385209666621" at="23,90,24,93" concept="1" />
+      <node id="4806153385209666625" at="25,9,26,16" concept="6" />
+      <node id="4806153385209666637" at="28,23,29,93" concept="5" />
+      <node id="4806153385209666640" at="29,93,30,90" concept="1" />
+      <node id="4806153385209666642" at="30,90,31,93" concept="1" />
+      <node id="4806153385209666646" at="32,9,33,16" concept="6" />
+      <node id="4806153385209666658" at="35,23,36,93" concept="5" />
+      <node id="4806153385209666661" at="36,93,37,93" concept="1" />
+      <node id="4806153385209666665" at="38,9,39,16" concept="6" />
+      <node id="4806153385209666677" at="41,23,42,93" concept="5" />
+      <node id="4806153385209666680" at="42,93,43,90" concept="1" />
+      <node id="4806153385209666682" at="43,90,44,93" concept="1" />
+      <node id="4806153385209666686" at="45,9,46,16" concept="6" />
+      <node id="4806153385209666698" at="48,23,49,93" concept="5" />
+      <node id="4806153385209666701" at="49,93,50,90" concept="1" />
+      <node id="4806153385209666703" at="50,90,51,93" concept="1" />
+      <node id="4806153385209666707" at="52,9,53,16" concept="6" />
+      <node id="4806153385209666719" at="55,23,56,93" concept="5" />
+      <node id="4806153385209666722" at="56,93,57,90" concept="1" />
+      <node id="4806153385209666724" at="57,90,58,93" concept="1" />
+      <node id="4806153385209666728" at="59,9,60,16" concept="6" />
+      <node id="4806153385209666740" at="62,23,63,93" concept="5" />
+      <node id="4806153385209666743" at="63,93,64,90" concept="1" />
+      <node id="4806153385209666745" at="64,90,65,93" concept="1" />
+      <node id="4806153385209666749" at="66,9,67,16" concept="6" />
+      <node id="4806153385209666761" at="69,23,70,93" concept="5" />
+      <node id="4806153385209666764" at="70,93,71,90" concept="1" />
+      <node id="4806153385209666766" at="71,90,72,93" concept="1" />
+      <node id="4806153385209666770" at="73,9,74,16" concept="6" />
+      <node id="4806153385209666772" at="76,5,77,16" concept="6" />
+      <node id="4806153385209666651" at="34,91,38,9" concept="3" />
+      <node id="4806153385209666609" at="20,91,25,9" concept="3" />
+      <node id="4806153385209666630" at="27,91,32,9" concept="3" />
+      <node id="4806153385209666670" at="40,91,45,9" concept="3" />
+      <node id="4806153385209666691" at="47,91,52,9" concept="3" />
+      <node id="4806153385209666712" at="54,91,59,9" concept="3" />
+      <node id="4806153385209666733" at="61,91,66,9" concept="3" />
+      <node id="4806153385209666754" at="68,91,73,9" concept="3" />
+      <node id="4806153385209666604" at="18,110,76,5" concept="9" />
+      <node id="4806153385209666588" at="15,0,79,0" concept="4" trace="getDescriptor#()" />
+      <scope id="4806153385209666605" at="75,14,75,14" />
+      <scope id="4806153385209666656" at="35,23,37,93">
+        <var name="cpb" id="4806153385209666657" />
+      </scope>
+      <scope id="4806153385209666614" at="21,23,24,93">
+        <var name="cpb" id="4806153385209666615" />
+      </scope>
+      <scope id="4806153385209666635" at="28,23,31,93">
+        <var name="cpb" id="4806153385209666636" />
+      </scope>
+      <scope id="4806153385209666675" at="41,23,44,93">
+        <var name="cpb" id="4806153385209666676" />
+      </scope>
+      <scope id="4806153385209666696" at="48,23,51,93">
+        <var name="cpb" id="4806153385209666697" />
+      </scope>
+      <scope id="4806153385209666717" at="55,23,58,93">
+        <var name="cpb" id="4806153385209666718" />
+      </scope>
+      <scope id="4806153385209666738" at="62,23,65,93">
+        <var name="cpb" id="4806153385209666739" />
+      </scope>
+      <scope id="4806153385209666759" at="69,23,72,93">
+        <var name="cpb" id="4806153385209666760" />
+      </scope>
+      <scope id="4806153385209666650" at="34,91,39,16" />
+      <scope id="4806153385209666608" at="20,91,26,16" />
+      <scope id="4806153385209666629" at="27,91,33,16" />
+      <scope id="4806153385209666669" at="40,91,46,16" />
+      <scope id="4806153385209666690" at="47,91,53,16" />
+      <scope id="4806153385209666711" at="54,91,60,16" />
+      <scope id="4806153385209666732" at="61,91,67,16" />
+      <scope id="4806153385209666753" at="68,91,74,16" />
+      <scope id="4806153385209666593" at="17,29,77,16">
+        <var name="structureDescriptor" id="4806153385209666594" />
+      </scope>
+      <scope id="4806153385209666588" at="15,0,79,0">
+        <var name="c" id="4806153385209666591" />
+      </scope>
+      <unit id="4806153385209666553" at="6,0,80,0" name="SoseL21.structure.ConceptPresentationAspectImpl" />
+    </file>
+  </root>
+</debug-info>
+

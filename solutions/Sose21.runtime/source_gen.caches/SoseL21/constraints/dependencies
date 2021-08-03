@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="SoseL21.constraints.ConstraintsAspectDescriptor" />
+  <dependency className="SoseL21.constraints.Reference_Constraints">
+    <classNode dependClassName="java.util.Map" />
+  </dependency>
+</dependenciesRoot>
+

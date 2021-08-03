@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="SoseL21.structure.ConceptPresentationAspectImpl" />
+  <dependency className="SoseL21.structure.LanguageConceptSwitch" />
+  <dependency className="SoseL21.structure.StructureAspectDescriptor">
+    <classNode dependClassName="SoseL21.structure.LanguageConceptSwitch" />
+    <classNode dependClassName="java.util.Collection" />
+  </dependency>
+</dependenciesRoot>
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="SoseL21.typesystem.TypesystemDescriptor" />
+  <dependency className="SoseL21.typesystem.singleReference_NonTypesystemRule" />
+</dependenciesRoot>
+

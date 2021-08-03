@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/9100188248702352244:jetbrains.mps.baseLanguage.structure.UnknownConsCall" />
+  <root nodeRef="r:7ae23069-33d5-4a28-897e-3650c3d35118(SoseL21.generator)/4806153385209666158">
+    <file name="Generator.java">
+      <node id="4806153385209666170" at="8,68,9,65" concept="5" />
+      <node id="4806153385209666179" at="13,32,14,154" concept="4" />
+      <node id="4806153385209666191" at="17,46,18,84" concept="1" />
+      <node id="4806153385209666202" at="21,44,22,20" concept="3" />
+      <node id="4806153385209666210" at="22,20,23,90" concept="1" />
+      <node id="4806153385209666219" at="23,90,24,91" concept="4" />
+      <node id="4806153385209666161" at="8,0,11,0" concept="0" trace="Generator#()V" />
+      <node id="4806153385209666186" at="16,0,20,0" concept="2" trace="fillTemplateModels#()V" />
+      <node id="4806153385209666175" at="11,0,16,0" concept="2" trace="getModuleReference#()" />
+      <node id="4806153385209666198" at="20,0,26,0" concept="2" trace="getTargetLanguages#()Ljava/util/Collection;" />
+      <scope id="4806153385209666169" at="8,68,9,65" />
+      <scope id="4806153385209666178" at="13,32,14,154" />
+      <scope id="4806153385209666190" at="17,46,18,84" />
+      <scope id="4806153385209666161" at="8,0,11,0">
+        <var name="generator" id="4806153385209666167" />
+        <var name="languageRegistry" id="4806153385209666163" />
+        <var name="sourceLanguage" id="4806153385209666165" />
+      </scope>
+      <scope id="4806153385209666200" at="21,44,24,91">
+        <var name="rv" id="4806153385209666201" />
+      </scope>
+      <scope id="4806153385209666186" at="16,0,20,0">
+        <var name="models" id="4806153385209666188" />
+      </scope>
+      <scope id="4806153385209666175" at="11,0,16,0" />
+      <scope id="4806153385209666198" at="20,0,26,0" />
+      <unit id="4806153385209666158" at="7,0,27,0" name="SoseL21.generator.Generator" />
+    </file>
+  </root>
+</debug-info>
+

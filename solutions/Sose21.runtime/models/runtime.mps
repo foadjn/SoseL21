@@ -18,14 +18,10 @@
       <concept id="8659485376325769310" name="SoseL21.structure.Integer" flags="ng" index="2pIJhf">
         <property id="6390243527468343057" name="value" index="32kYIK" />
       </concept>
-      <concept id="8659485376325769329" name="SoseL21.structure.Reference" flags="ng" index="2pIJhw">
-        <reference id="2079685202717789063" name="expression" index="14vsOF" />
-      </concept>
       <concept id="6130475724255204270" name="SoseL21.structure.BinaryExpression" flags="ng" index="2tsc2u">
         <child id="6390243527468343126" name="left" index="32kYJR" />
         <child id="6390243527468343130" name="right" index="32kYJV" />
       </concept>
-      <concept id="6390243527468343047" name="SoseL21.structure.IExpression" flags="ng" index="32kYIA" />
       <concept id="6390243527468343046" name="SoseL21.structure.ExpressionStatement" flags="ng" index="32kYIB">
         <child id="6390243527468343048" name="expression" index="32kYID" />
       </concept>
@@ -95,17 +91,9 @@
         <property role="1kTE$5" value="shibdi" />
       </node>
     </node>
-    <node concept="32kYIB" id="4UwzcWZzi$3" role="2pIJhz">
-      <node concept="32kYIA" id="4UwzcWZzi$5" role="32kYID" />
-    </node>
   </node>
   <node concept="2pIJh6" id="6GhqEKAmXHg">
     <property role="TrG5h" value="wk1" />
-    <node concept="32kYIB" id="4UwzcWZzLAx" role="2pIJhz">
-      <node concept="2pIJhw" id="4UwzcWZ$6nL" role="32kYID">
-        <ref role="14vsOF" node="6GhqEKAnqOw" resolve="m" />
-      </node>
-    </node>
     <node concept="32kYIF" id="6GhqEKAnMNV" role="2pIJhz">
       <property role="TrG5h" value="d" />
       <node concept="2pIJhf" id="6GhqEKAnMOc" role="32kYIE">
@@ -126,11 +114,6 @@
         <node concept="32kYIS" id="4UwzcWZz7OJ" role="32kYJV">
           <property role="1kTE$5" value="a" />
         </node>
-      </node>
-    </node>
-    <node concept="32kYIB" id="4UwzcWZzSEb" role="2pIJhz">
-      <node concept="2pIJhw" id="4UwzcWZ$6nG" role="32kYID">
-        <ref role="14vsOF" node="6GhqEKAnMNV" resolve="d" />
       </node>
     </node>
   </node>

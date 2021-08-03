@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:b48c80a6-99d3-4734-a51a-2f6b7b6861cf(runtime)/2051071473192251074">
+    <file name="wk2.java">
+      <unit id="2051071473192251074" at="6,0,8,0" name="runtime.wk2" />
+    </file>
+  </root>
+  <root nodeRef="r:b48c80a6-99d3-4734-a51a-2f6b7b6861cf(runtime)/7715064924272843600">
+    <file name="wk1.java">
+      <unit id="7715064924272843600" at="6,0,8,0" name="runtime.wk1" />
+    </file>
+  </root>
+</debug-info>
+
