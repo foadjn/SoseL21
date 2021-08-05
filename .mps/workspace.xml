@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67257371-2aa5-4790-ab28-08d70a63e774" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/languages/SoseL21/models/SoseL21.intentions.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/SoseL21.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/SoseL21.mpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/textGen/TextGenAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/textGen/TextGenAspectDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/Generator.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/Generator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$LINKS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$PROPS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$PVQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$PVQ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$SNsQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$SNsQ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/models/SoseL21.plugin.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/models/SoseL21.plugin.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/COPLLang.interpreter/models/COPLLang.interpreter.plugin.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/COPLLang.interpreter/models/COPLLang.interpreter.plugin.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +23,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="26a7335a-222c-4f00-b526-d6ae29d1447c/r:c51b8ee1-9be9-46d4-a4dd-cf0c03747a8f(TempModule26a7335a-222c-4f00-b526-d6ae29d1447c/ConsoleModel_155041291800)">
+            <model ref="2df446b1-0d76-4fa3-8006-5b85de96fb75/r:1b55380a-6746-433b-9b8a-2d4757dfde12(TempModule2df446b1-0d76-4fa3-8006-5b85de96fb75/ConsoleModel_692401430200)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -54,11 +43,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="13fgJkxdfUm">
-                <node concept="3balQm" id="13fgJkxdfUn" role="aymYE" />
-                <node concept="2Clz$F" id="13fgJkxdfUo" role="aymYO" />
-                <node concept="2_V_lH" id="13fgJkxdfUp" role="1PhJh3">
-                  <ref role="2_V_lI" node="13fgJkxdfUo" resolve="CommandHolder" />
+              <node concept="aymSD" id="SHMeobbfT_">
+                <node concept="3balQm" id="SHMeobbfTA" role="aymYE" />
+                <node concept="2Clz$F" id="SHMeobbfTB" role="aymYO" />
+                <node concept="2_V_lH" id="SHMeobbfTC" role="1PhJh3">
+                  <ref role="2_V_lI" node="SHMeobbfTB" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -365,27 +354,9 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="COP-Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\Nina Marie Stewens\MPSProjects\COP-Project" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="COP-Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\Nina Marie Stewens\MPSProjects\COP-Project" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="languages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="COP-Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\Nina Marie Stewens\MPSProjects\COP-Project" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="languages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="SoseL21" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
+      <pane id="FileSystem" />
+      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
+        <subPane />
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -395,7 +366,97 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="6e65b070-f7f6-41ba-80b4-64029956dec4" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="COPLLang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:dafba46f-45c2-4716-98dc-c53d8f14af0a(COPLLang.interpreter) in IdeaFile[path: C:/Users/Nina Marie Stewens/Documents/UNI/SS2021/COP/SoseL21/solutions/COPLLang.interpreter/models/COPLLang.interpreter.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6e65b070-f7f6-41ba-80b4-64029956dec4" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="COPLLang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:3feced63-76c9-43c3-bfaf-118107b568a7(SoseL21.structure) in IdeaFile[path: C:/Users/Nina Marie Stewens/Documents/UNI/SS2021/COP/SoseL21/languages/SoseL21/models/SoseL21.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:b48c80a6-99d3-4734-a51a-2f6b7b6861cf(runtime) in IdeaFile[path: C:/Users/Nina Marie Stewens/Documents/UNI/SS2021/COP/SoseL21/solutions/Sose21.runtime/models/runtime.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:07080f9c-2fcf-445b-8873-07f5fe5e16ed(SoseL21.editor) in IdeaFile[path: C:/Users/Nina Marie Stewens/Documents/UNI/SS2021/COP/SoseL21/languages/SoseL21/models/SoseL21.editor.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -451,83 +512,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:b48c80a6-99d3-4734-a51a-2f6b7b6861cf(runtime) in IdeaFile[path: C:/Users/Nina Marie Stewens/Documents/UNI/SS2021/COP/SoseL21/solutions/Sose21.runtime/models/runtime.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6e65b070-f7f6-41ba-80b4-64029956dec4" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="COPLLang" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6e65b070-f7f6-41ba-80b4-64029956dec4" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="COPLLang" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:dafba46f-45c2-4716-98dc-c53d8f14af0a(COPLLang.interpreter) in IdeaFile[path: C:/Users/Nina Marie Stewens/Documents/UNI/SS2021/COP/SoseL21/solutions/COPLLang.interpreter/models/COPLLang.interpreter.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
+              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:f0701a30-7c83-4257-8dac-61c6af533ec3(SoseL21.plugin) in IdeaFile[path: C:/Users/Nina Marie Stewens/Documents/UNI/SS2021/COP/SoseL21/languages/SoseL21/models/SoseL21.plugin.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6e65b070-f7f6-41ba-80b4-64029956dec4" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:3feced63-76c9-43c3-bfaf-118107b568a7(SoseL21.structure) in IdeaFile[path: C:/Users/Nina Marie Stewens/Documents/UNI/SS2021/COP/SoseL21/languages/SoseL21/models/SoseL21.structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -552,16 +541,30 @@
               <option name="myItemId" value="r:25486260-f708-41d3-8bfc-f3976c3da343(COPLLang.interpreter.plugin) in IdeaFile[path: C:/Users/Nina Marie Stewens/Documents/UNI/SS2021/COP/SoseL21/solutions/COPLLang.interpreter/models/COPLLang.interpreter.plugin.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3446390258123496157" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="FileSystem" />
-      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
-        <subPane />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="COP-Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Nina Marie Stewens\MPSProjects\COP-Project" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="COP-Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Nina Marie Stewens\MPSProjects\COP-Project" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="languages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="COP-Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Nina Marie Stewens\MPSProjects\COP-Project" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="languages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="SoseL21" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
       </pane>
       <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
         <subPane />
