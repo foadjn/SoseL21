@@ -5,4 +5,6 @@ package runtime;
 
 public class wk1 {
 
+  public static void main(String[] args) {<!TextGen not found for 'SoseL21.structure.VariableDeclaration'!><!TextGen not found for 'SoseL21.structure.VariableDeclaration'!><!TextGen not found for 'SoseL21.structure.ExpressionStatement'!>
+  }
 }

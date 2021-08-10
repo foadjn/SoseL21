@@ -113,6 +113,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x58aeb4a19afd5f07L);
     b.origin("r:3feced63-76c9-43c3-bfaf-118107b568a7(SoseL21.structure)/8659485376325769326");
     b.version(2);
+    b.property("value", 0x2295cc05f84138cL).type(PrimitiveTypeId.BOOLEAN).origin("155757643426960268").done();
     b.alias("boolean");
     return b.create();
   }
