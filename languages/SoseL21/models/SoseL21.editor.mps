@@ -168,9 +168,6 @@
           </node>
         </node>
       </node>
-      <node concept="3F0A7n" id="5yIHa6qZN05" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
       <node concept="3F0ifn" id="1LQREd8$7tQ" role="3EZMnx">
         <property role="3F0ifm" value="=" />
       </node>

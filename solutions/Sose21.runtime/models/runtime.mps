@@ -15,6 +15,7 @@
       <concept id="8659485376325769303" name="SoseL21.structure.SoSeWorksheet" flags="ng" index="2pIJh6">
         <child id="8659485376325769330" name="contents" index="2pIJhz" />
       </concept>
+      <concept id="8659485376325769311" name="SoseL21.structure.IStatement" flags="ng" index="2pIJhe" />
       <concept id="8659485376325769310" name="SoseL21.structure.Integer" flags="ng" index="2pIJhf">
         <property id="6390243527468343057" name="value" index="32kYIK" />
       </concept>
@@ -116,6 +117,12 @@
         </node>
       </node>
     </node>
+    <node concept="32kYIF" id="d0LCRyNKjz" role="2pIJhz">
+      <node concept="2pIJhf" id="d0LCRyNKkb" role="32kYIE">
+        <property role="32kYIK" value="12" />
+      </node>
+    </node>
+    <node concept="2pIJhe" id="d0LCRyNKl4" role="2pIJhz" />
   </node>
 </model>
 
