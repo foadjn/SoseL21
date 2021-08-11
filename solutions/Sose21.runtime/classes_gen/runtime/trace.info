@@ -4,10 +4,13 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root nodeRef="r:b48c80a6-99d3-4734-a51a-2f6b7b6861cf(runtime)/2051071473192251074">
     <file name="wk2.java">
-      <node id="2051071473192251077" at="8,42,9,14" concept="0" />
-      <node id="7715064924272593831" at="9,14,10,14" concept="0" />
+      <node id="2051071473192251077" at="8,42,9,15" concept="0" />
+      <node id="7715064924272593831" at="9,15,10,15" concept="0" />
       <node id="2051071473192251074" at="8,0,12,0" concept="1" trace="main#([Ljava/lang/String;)V" />
-      <scope id="2051071473192251074" at="8,42,10,73" />
+      <scope id="2051071473192251074" at="8,42,10,74">
+        <var name="a" id="2051071473192251077" />
+        <var name="b" id="7715064924272593831" />
+      </scope>
       <scope id="2051071473192251074" at="8,0,12,0">
         <var name="args" id="2051071473192251074" />
       </scope>
@@ -16,11 +19,15 @@
   </root>
   <root nodeRef="r:b48c80a6-99d3-4734-a51a-2f6b7b6861cf(runtime)/7715064924272843600">
     <file name="wk1.java">
-      <node id="7715064924273061132" at="8,42,9,13" concept="0" />
-      <node id="7715064924272962867" at="9,13,10,13" concept="0" />
-      <node id="234405493321141447" at="10,13,11,14" concept="0" />
+      <node id="7715064924273061132" at="8,42,9,14" concept="0" />
+      <node id="7715064924272962867" at="9,14,10,14" concept="0" />
+      <node id="234405493321172235" at="10,14,11,15" concept="0" />
       <node id="7715064924272843600" at="8,0,13,0" concept="1" trace="main#([Ljava/lang/String;)V" />
-      <scope id="7715064924272843600" at="8,42,11,14" />
+      <scope id="7715064924272843600" at="8,42,11,15">
+        <var name="d" id="7715064924273061132" />
+        <var name="f" id="234405493321172235" />
+        <var name="m" id="7715064924272962867" />
+      </scope>
       <scope id="7715064924272843600" at="8,0,13,0">
         <var name="args" id="7715064924272843600" />
       </scope>

@@ -172,11 +172,6 @@
     <node concept="PrWs8" id="5yIHa6qZlWl" role="PzmwI">
       <ref role="PrY4T" node="7wGF17x__xv" resolve="IStatement" />
     </node>
-    <node concept="1TJgyi" id="d0LCRyNKq9" role="1TKVEl">
-      <property role="IQ2nx" value="234405493321172617" />
-      <property role="TrG5h" value="name" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
   </node>
   <node concept="1TIwiD" id="5yIHa6qZlWp">
     <property role="EcuMT" value="6390243527468343065" />

@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="67257371-2aa5-4790-ab28-08d70a63e774" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Boolean_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Boolean_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Boolean_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Boolean_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Boolean_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Boolean_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Boolean_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Boolean_EditorBuilder_a.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/ExpressionStatement_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/ExpressionStatement_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Integer_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Integer_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Integer_EditorBuilder_a$valueSingleRoleHandler_9ug0rr_d0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Integer_EditorBuilder_a$valueSingleRoleHandler_9ug0rr_d0.class" afterDir="false" />
@@ -21,6 +25,7 @@
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$LINKS.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$PROPS.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$PVQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$PVQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$SNQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$SNQ.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$SNsQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated$SNsQ.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/QueriesGenerated.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/generator/classes_gen/SoseL21/generator/templates/trace.info" afterDir="false" />
@@ -32,8 +37,10 @@
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/templates/SoseL21.generator.templates@generator.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/generator/templates/SoseL21.generator.templates@generator.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/models/SoseL21.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/models/SoseL21.editor.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/models/SoseL21.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/models/SoseL21.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/editor/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/editor/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/editor/Boolean_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/editor/Boolean_EditorBuilder_a.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/editor/VariableDeclaration_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/editor/VariableDeclaration_EditorBuilder_a.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/editor/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/Sose21.runtime/classes_gen/runtime/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Sose21.runtime/classes_gen/runtime/trace.info" afterDir="false" />
@@ -404,6 +411,12 @@
               <option name="myItemId" value="SoseL21" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
               <option name="myItemType" value="" />
@@ -424,6 +437,126 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:3feced63-76c9-43c3-bfaf-118107b568a7(SoseL21.structure) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/languages/SoseL21/models/SoseL21.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6e65b070-f7f6-41ba-80b4-64029956dec4" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="COPLLang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:dafba46f-45c2-4716-98dc-c53d8f14af0a(COPLLang.interpreter) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/solutions/COPLLang.interpreter/models/COPLLang.interpreter.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:25486260-f708-41d3-8bfc-f3976c3da343(COPLLang.interpreter.plugin) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/solutions/COPLLang.interpreter/models/COPLLang.interpreter.plugin.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6e65b070-f7f6-41ba-80b4-64029956dec4" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="COPLLang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6e65b070-f7f6-41ba-80b4-64029956dec4" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:b48c80a6-99d3-4734-a51a-2f6b7b6861cf(runtime) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/solutions/Sose21.runtime/models/runtime.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6e65b070-f7f6-41ba-80b4-64029956dec4" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="COPLLang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:dafba46f-45c2-4716-98dc-c53d8f14af0a(COPLLang.interpreter) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/solutions/COPLLang.interpreter/models/COPLLang.interpreter.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21.generator" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21.generator" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -455,137 +588,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="6e65b070-f7f6-41ba-80b4-64029956dec4" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6e65b070-f7f6-41ba-80b4-64029956dec4" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="COPLLang" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:dafba46f-45c2-4716-98dc-c53d8f14af0a(COPLLang.interpreter) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/solutions/COPLLang.interpreter/models/COPLLang.interpreter.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:25486260-f708-41d3-8bfc-f3976c3da343(COPLLang.interpreter.plugin) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/solutions/COPLLang.interpreter/models/COPLLang.interpreter.plugin.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21.generator" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6e65b070-f7f6-41ba-80b4-64029956dec4" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="COPLLang" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:dafba46f-45c2-4716-98dc-c53d8f14af0a(COPLLang.interpreter) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/solutions/COPLLang.interpreter/models/COPLLang.interpreter.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:b48c80a6-99d3-4734-a51a-2f6b7b6861cf(runtime) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/solutions/Sose21.runtime/models/runtime.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21.generator" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6e65b070-f7f6-41ba-80b4-64029956dec4" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="COPLLang" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -605,15 +612,15 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
+              <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:3feced63-76c9-43c3-bfaf-118107b568a7(SoseL21.structure) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/languages/SoseL21/models/SoseL21.structure.mps]" />
+              <option name="myItemId" value="r:b48c80a6-99d3-4734-a51a-2f6b7b6861cf(runtime) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/solutions/Sose21.runtime/models/runtime.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="6390243527468343050" />
+              <option name="myItemId" value="7715064924272843600" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
