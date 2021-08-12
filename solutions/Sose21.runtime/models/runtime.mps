@@ -13,10 +13,9 @@
     </language>
     <language id="f54c6703-3418-40bc-be93-12879578d6a1" name="SoseL21">
       <concept id="8403891452086101526" name="SoseL21.structure.GreaterEqualExp" flags="ng" index="28a3yD" />
-      <concept id="8403891452086087505" name="SoseL21.structure.LessExpression" flags="ng" index="28af7I" />
-      <concept id="8403891452086270141" name="SoseL21.structure.IfStatement" flags="ng" index="28aUo2">
-        <child id="8403891452086270142" name="bool" index="28aUo1" />
-        <child id="8403891452086270270" name="statements" index="28aUu1" />
+      <concept id="8403891452086397824" name="SoseL21.structure.ElifStatement" flags="ng" index="28brkZ">
+        <child id="8403891452086397829" name="condition2" index="28brkU" />
+        <child id="8403891452086397827" name="condition1" index="28brkW" />
       </concept>
       <concept id="8659485376325769303" name="SoseL21.structure.SoSeWorksheet" flags="ng" index="2pIJh6">
         <child id="8659485376325769330" name="contents" index="2pIJhz" />
@@ -40,7 +39,6 @@
       </concept>
       <concept id="6390243527468343071" name="SoseL21.structure.PlusExpression" flags="ng" index="32kYIY" />
       <concept id="2051071473192329455" name="SoseL21.structure.DivExpression" flags="ng" index="1kTzTc" />
-      <concept id="2051071473192329454" name="SoseL21.structure.MulExpression" flags="ng" index="1kTzTd" />
       <concept id="2051071473192329453" name="SoseL21.structure.MinusExpression" flags="ng" index="1kTzTe" />
     </language>
   </registry>
@@ -118,21 +116,9 @@
         </node>
       </node>
     </node>
-    <node concept="28aUo2" id="7iwBFZWzcG8" role="2pIJhz">
-      <node concept="28af7I" id="7iwBFZWzcGj" role="28aUo1">
-        <node concept="2pIJhf" id="7iwBFZWzcGq" role="32kYJR">
-          <property role="32kYIK" value="10" />
-        </node>
-        <node concept="2pIJhf" id="7iwBFZWzcGt" role="32kYJV">
-          <property role="32kYIK" value="29" />
-        </node>
-      </node>
-      <node concept="32kYIB" id="7iwBFZWzcGw" role="28aUu1">
-        <node concept="1kTzTd" id="7iwBFZWzcG$" role="32kYID">
-          <node concept="32kYIA" id="7iwBFZWzcGA" role="32kYJR" />
-          <node concept="32kYIA" id="7iwBFZWzcGB" role="32kYJV" />
-        </node>
-      </node>
+    <node concept="28brkZ" id="7iwBFZWzuXR" role="2pIJhz">
+      <node concept="32kYIA" id="7iwBFZWzuXT" role="28brkW" />
+      <node concept="32kYIA" id="7iwBFZWzuXU" role="28brkU" />
     </node>
   </node>
 </model>

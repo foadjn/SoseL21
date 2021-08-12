@@ -14,6 +14,8 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_BinaryExpression;
   private ConceptPresentation props_Boolean;
   private ConceptPresentation props_DivExpression;
+  private ConceptPresentation props_ElifStatement;
+  private ConceptPresentation props_ElseStatement;
   private ConceptPresentation props_EqualsExpression;
   private ConceptPresentation props_ExpressionStatement;
   private ConceptPresentation props_GreaterEqualExp;
@@ -71,6 +73,20 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_DivExpression = cpb.create();
         }
         return props_DivExpression;
+      case LanguageConceptSwitch.ElifStatement:
+        if (props_ElifStatement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_ElifStatement = cpb.create();
+        }
+        return props_ElifStatement;
+      case LanguageConceptSwitch.ElseStatement:
+        if (props_ElseStatement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_ElseStatement = cpb.create();
+        }
+        return props_ElseStatement;
       case LanguageConceptSwitch.EqualsExpression:
         if (props_EqualsExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
