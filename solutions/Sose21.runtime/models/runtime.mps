@@ -12,17 +12,23 @@
       </concept>
     </language>
     <language id="f54c6703-3418-40bc-be93-12879578d6a1" name="SoseL21">
+      <concept id="8403891452086101526" name="SoseL21.structure.GreaterEqualExp" flags="ng" index="28a3yD" />
+      <concept id="8403891452086087505" name="SoseL21.structure.LessExpression" flags="ng" index="28af7I" />
+      <concept id="8403891452086270141" name="SoseL21.structure.IfStatement" flags="ng" index="28aUo2">
+        <child id="8403891452086270142" name="bool" index="28aUo1" />
+        <child id="8403891452086270270" name="statements" index="28aUu1" />
+      </concept>
       <concept id="8659485376325769303" name="SoseL21.structure.SoSeWorksheet" flags="ng" index="2pIJh6">
         <child id="8659485376325769330" name="contents" index="2pIJhz" />
       </concept>
       <concept id="8659485376325769310" name="SoseL21.structure.Integer" flags="ng" index="2pIJhf">
         <property id="6390243527468343057" name="value" index="32kYIK" />
       </concept>
-      <concept id="8659485376325769326" name="SoseL21.structure.Boolean" flags="ng" index="2pIJhZ" />
       <concept id="6130475724255204270" name="SoseL21.structure.BinaryExpression" flags="ng" index="2tsc2u">
         <child id="6390243527468343126" name="left" index="32kYJR" />
         <child id="6390243527468343130" name="right" index="32kYJV" />
       </concept>
+      <concept id="6390243527468343047" name="SoseL21.structure.IExpression" flags="ng" index="32kYIA" />
       <concept id="6390243527468343046" name="SoseL21.structure.ExpressionStatement" flags="ng" index="32kYIB">
         <child id="6390243527468343048" name="expression" index="32kYID" />
       </concept>
@@ -34,6 +40,7 @@
       </concept>
       <concept id="6390243527468343071" name="SoseL21.structure.PlusExpression" flags="ng" index="32kYIY" />
       <concept id="2051071473192329455" name="SoseL21.structure.DivExpression" flags="ng" index="1kTzTc" />
+      <concept id="2051071473192329454" name="SoseL21.structure.MulExpression" flags="ng" index="1kTzTd" />
       <concept id="2051071473192329453" name="SoseL21.structure.MinusExpression" flags="ng" index="1kTzTe" />
     </language>
   </registry>
@@ -95,37 +102,37 @@
   </node>
   <node concept="2pIJh6" id="6GhqEKAmXHg">
     <property role="TrG5h" value="wk1" />
-    <node concept="32kYIF" id="6GhqEKAnMNV" role="2pIJhz">
-      <property role="TrG5h" value="d" />
-      <node concept="2pIJhf" id="6GhqEKAnMOc" role="32kYIE">
-        <property role="32kYIK" value="2" />
+    <node concept="32kYIF" id="7iwBFZWyNva" role="2pIJhz">
+      <property role="TrG5h" value="h" />
+      <node concept="2pIJhf" id="7iwBFZWyNvh" role="32kYIE">
+        <property role="32kYIK" value="10" />
       </node>
     </node>
-    <node concept="32kYIF" id="6GhqEKAnqOw" role="2pIJhz">
-      <property role="TrG5h" value="m" />
-      <node concept="2pIJhf" id="6GhqEKAnqON" role="32kYIE">
-        <property role="32kYIK" value="3" />
-      </node>
-    </node>
-    <node concept="32kYIB" id="4UwzcWZz7Os" role="2pIJhz">
-      <node concept="32kYIY" id="4UwzcWZz7O_" role="32kYID">
-        <node concept="2pIJhf" id="4UwzcWZz7OG" role="32kYJR">
+    <node concept="32kYIB" id="7iwBFZWyNvo" role="2pIJhz">
+      <node concept="28a3yD" id="7iwBFZWyNvv" role="32kYID">
+        <node concept="2pIJhf" id="7iwBFZWyNvO" role="32kYJR">
           <property role="32kYIK" value="10" />
         </node>
-        <node concept="32kYIS" id="4UwzcWZz7OJ" role="32kYJV">
+        <node concept="32kYIS" id="7iwBFZWyNvR" role="32kYJV">
           <property role="1kTE$5" value="a" />
         </node>
       </node>
     </node>
-    <node concept="32kYIF" id="d0LCRyNKjz" role="2pIJhz">
-      <property role="TrG5h" value="f" />
-      <node concept="2pIJhf" id="d0LCRyNKkb" role="32kYIE">
-        <property role="32kYIK" value="12" />
+    <node concept="28aUo2" id="7iwBFZWzcG8" role="2pIJhz">
+      <node concept="28af7I" id="7iwBFZWzcGj" role="28aUo1">
+        <node concept="2pIJhf" id="7iwBFZWzcGq" role="32kYJR">
+          <property role="32kYIK" value="10" />
+        </node>
+        <node concept="2pIJhf" id="7iwBFZWzcGt" role="32kYJV">
+          <property role="32kYIK" value="29" />
+        </node>
       </node>
-    </node>
-    <node concept="32kYIF" id="d0LCRyQxlY" role="2pIJhz">
-      <property role="TrG5h" value="booli" />
-      <node concept="2pIJhZ" id="d0LCRyQxq0" role="32kYIE" />
+      <node concept="32kYIB" id="7iwBFZWzcGw" role="28aUu1">
+        <node concept="1kTzTd" id="7iwBFZWzcG$" role="32kYID">
+          <node concept="32kYIA" id="7iwBFZWzcGA" role="32kYJR" />
+          <node concept="32kYIA" id="7iwBFZWzcGB" role="32kYJV" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
