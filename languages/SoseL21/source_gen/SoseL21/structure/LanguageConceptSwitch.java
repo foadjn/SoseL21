@@ -34,6 +34,7 @@ public final class LanguageConceptSwitch {
   public static final int SoSeWorksheet = 22;
   public static final int StringLiteral = 23;
   public static final int VariableDeclaration = 24;
+  public static final int WhileStatement = 25;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xf54c6703341840bcL, 0xbe9312879578d6a1L);
@@ -62,6 +63,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x782cac11e1965857L, SoSeWorksheet);
     builder.put(0x58aeb4a19afd5f19L, StringLiteral);
     builder.put(0x58aeb4a19afd5f0aL, VariableDeclaration);
+    builder.put(0x74a09ebffc8e713bL, WhileStatement);
     myIndex = builder.seal();
   }
 

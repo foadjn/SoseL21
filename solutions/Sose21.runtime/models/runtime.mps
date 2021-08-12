@@ -17,6 +17,9 @@
         <child id="8403891452086397829" name="condition2" index="28brkU" />
         <child id="8403891452086397827" name="condition1" index="28brkW" />
       </concept>
+      <concept id="8403891452086481211" name="SoseL21.structure.WhileStatement" flags="ng" index="28bIY4">
+        <child id="8403891452086481212" name="cond" index="28bIY3" />
+      </concept>
       <concept id="8659485376325769303" name="SoseL21.structure.SoSeWorksheet" flags="ng" index="2pIJh6">
         <child id="8659485376325769330" name="contents" index="2pIJhz" />
       </concept>
@@ -119,6 +122,9 @@
     <node concept="28brkZ" id="7iwBFZWzuXR" role="2pIJhz">
       <node concept="32kYIA" id="7iwBFZWzuXT" role="28brkW" />
       <node concept="32kYIA" id="7iwBFZWzuXU" role="28brkU" />
+    </node>
+    <node concept="28bIY4" id="7iwBFZWzHU$" role="2pIJhz">
+      <node concept="32kYIA" id="7iwBFZWzHUA" role="28bIY3" />
     </node>
   </node>
 </model>

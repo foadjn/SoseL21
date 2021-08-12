@@ -34,6 +34,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_SoSeWorksheet;
   private ConceptPresentation props_StringLiteral;
   private ConceptPresentation props_VariableDeclaration;
+  private ConceptPresentation props_WhileStatement;
 
   @Override
   @Nullable
@@ -211,6 +212,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_VariableDeclaration = cpb.create();
         }
         return props_VariableDeclaration;
+      case LanguageConceptSwitch.WhileStatement:
+        if (props_WhileStatement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_WhileStatement = cpb.create();
+        }
+        return props_WhileStatement;
     }
     return null;
   }
