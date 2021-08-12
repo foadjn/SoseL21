@@ -12,16 +12,9 @@
       </concept>
     </language>
     <language id="f54c6703-3418-40bc-be93-12879578d6a1" name="SoseL21">
-      <concept id="8403891452086101528" name="SoseL21.structure.LessEqualExp" flags="ng" index="28a3yB" />
-      <concept id="8403891452086509303" name="SoseL21.structure.ForStatement" flags="ng" index="28b$18">
-        <property id="8403891452086509321" name="iteration" index="28b$6Q" />
-        <child id="8403891452086509308" name="limit" index="28b$13" />
-        <child id="8403891452086509306" name="init" index="28b$15" />
-      </concept>
       <concept id="8659485376325769303" name="SoseL21.structure.SoSeWorksheet" flags="ng" index="2pIJh6">
         <child id="8659485376325769330" name="contents" index="2pIJhz" />
       </concept>
-      <concept id="8659485376325769311" name="SoseL21.structure.IStatement" flags="ng" index="2pIJhe" />
       <concept id="8659485376325769310" name="SoseL21.structure.Integer" flags="ng" index="2pIJhf">
         <property id="6390243527468343057" name="value" index="32kYIK" />
       </concept>
@@ -101,24 +94,18 @@
   </node>
   <node concept="2pIJh6" id="6GhqEKAmXHg">
     <property role="TrG5h" value="wk1" />
-    <node concept="28b$18" id="7iwBFZWzQgi" role="2pIJhz">
-      <property role="28b$6Q" value="h++" />
-      <node concept="32kYIF" id="7iwBFZWzQgj" role="28b$15">
-        <property role="TrG5h" value="h" />
-        <node concept="2pIJhf" id="7iwBFZWzQgq" role="32kYIE">
-          <property role="32kYIK" value="0" />
+    <node concept="32kYIB" id="7iwBFZW$usz" role="2pIJhz">
+      <node concept="32kYIY" id="7iwBFZW$usB" role="32kYID">
+        <node concept="2pIJhf" id="7iwBFZW$usI" role="32kYJR">
+          <property role="TrG5h" value="9" />
+          <property role="32kYIK" value="9" />
         </node>
-      </node>
-      <node concept="28a3yB" id="7iwBFZWzQgt" role="28b$13">
-        <node concept="2pIJhf" id="7iwBFZWzQgG" role="32kYJV">
-          <property role="32kYIK" value="10" />
-        </node>
-        <node concept="32kYIS" id="7iwBFZWzQgD" role="32kYJR">
-          <property role="1kTE$5" value="h" />
+        <node concept="2pIJhf" id="7iwBFZW$usL" role="32kYJV">
+          <property role="TrG5h" value="9" />
+          <property role="32kYIK" value="9" />
         </node>
       </node>
     </node>
-    <node concept="2pIJhe" id="7iwBFZWzWS3" role="2pIJhz" />
   </node>
 </model>
 

@@ -14,11 +14,18 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
 import java.util.Collections;
 import jetbrains.mps.intentions.AbstractIntentionExecutable;
-import SoseL21.plugin.Evalhelper;
-import com.intellij.openapi.ui.Messages;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.baseLanguage.logging.runtime.model.LoggingRuntime;
 import org.apache.log4j.Level;
+import SoseL21.plugin.Evalhelper;
+import com.intellij.openapi.ui.Messages;
 import jetbrains.mps.openapi.intentions.IntentionDescriptor;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SProperty;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 public final class InterpretStat_Intention extends AbstractIntentionDescriptor implements IntentionFactory {
   private static final Logger LOG = LogManager.getLogger(InterpretStat_Intention.class);
@@ -53,6 +60,14 @@ public final class InterpretStat_Intention extends AbstractIntentionDescriptor i
     }
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
+      if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(node, LINKS.left$3Gic), CONCEPTS.Integer$EJ)) {
+        SNode leftNode = ((SNode) SLinkOperations.getTarget(node, LINKS.left$3Gic));
+        SPropertyOperations.getInteger(leftNode, PROPS.value$h_B6);
+        LoggingRuntime.logMsgView(Level.DEBUG, "value is: " + SPropertyOperations.getInteger(leftNode, PROPS.value$h_B6), InterpretStat_Intention.class, null, null);
+
+      }
+      LoggingRuntime.logMsgView(Level.DEBUG, "node instance: " + SNodeOperations.isInstanceOf(SLinkOperations.getTarget(node, LINKS.left$3Gic), CONCEPTS.Integer$EJ), InterpretStat_Intention.class, null, null);
+
       String eval = Evalhelper.eval(node);
       Messages.showInfoMessage(eval, "Interpreted");
       LoggingRuntime.logMsgView(Level.INFO, "Interpreted" + eval, InterpretStat_Intention.class, null, null);
@@ -61,5 +76,17 @@ public final class InterpretStat_Intention extends AbstractIntentionDescriptor i
     public IntentionDescriptor getDescriptor() {
       return InterpretStat_Intention.this;
     }
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink left$3Gic = MetaAdapterFactory.getContainmentLink(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x5513d330c86313aeL, 0x58aeb4a19afd5f56L, "left");
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty value$h_B6 = MetaAdapterFactory.getProperty(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x782cac11e196585eL, 0x58aeb4a19afd5f11L, "value");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept Integer$EJ = MetaAdapterFactory.getConcept(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x782cac11e196585eL, "SoseL21.structure.Integer");
   }
 }

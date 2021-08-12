@@ -6,8 +6,5 @@ package runtime;
 public class wk1 {
 
   public static void main(String[] args) {
-    int d = 2;
-    int m = 3;
-    int f = 12;
   }
 }
