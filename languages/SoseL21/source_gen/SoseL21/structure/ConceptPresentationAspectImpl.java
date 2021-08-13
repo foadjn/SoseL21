@@ -13,6 +13,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_BinaryComparisonExpression;
   private ConceptPresentation props_BinaryExpression;
   private ConceptPresentation props_Boolean;
+  private ConceptPresentation props_ControlStatement;
   private ConceptPresentation props_DivExpression;
   private ConceptPresentation props_ElifStatement;
   private ConceptPresentation props_ElseStatement;
@@ -70,6 +71,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Boolean = cpb.create();
         }
         return props_Boolean;
+      case LanguageConceptSwitch.ControlStatement:
+        if (props_ControlStatement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_ControlStatement = cpb.create();
+        }
+        return props_ControlStatement;
       case LanguageConceptSwitch.DivExpression:
         if (props_DivExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

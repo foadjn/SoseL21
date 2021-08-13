@@ -12,9 +12,6 @@
       </concept>
     </language>
     <language id="f54c6703-3418-40bc-be93-12879578d6a1" name="SoseL21">
-      <concept id="8403891452086270141" name="SoseL21.structure.IfStatement" flags="ng" index="28aUo2">
-        <child id="8403891452086270142" name="bool" index="28aUo1" />
-      </concept>
       <concept id="8659485376325769303" name="SoseL21.structure.SoSeWorksheet" flags="ng" index="2pIJh6">
         <child id="8659485376325769330" name="contents" index="2pIJhz" />
       </concept>
@@ -25,7 +22,6 @@
         <child id="6390243527468343126" name="left" index="32kYJR" />
         <child id="6390243527468343130" name="right" index="32kYJV" />
       </concept>
-      <concept id="6390243527468343047" name="SoseL21.structure.IExpression" flags="ng" index="32kYIA" />
       <concept id="6390243527468343046" name="SoseL21.structure.ExpressionStatement" flags="ng" index="32kYIB">
         <child id="6390243527468343048" name="expression" index="32kYID" />
       </concept>
@@ -98,9 +94,6 @@
   </node>
   <node concept="2pIJh6" id="6GhqEKAmXHg">
     <property role="TrG5h" value="wk1" />
-    <node concept="28aUo2" id="4vchr0lP1Vg" role="2pIJhz">
-      <node concept="32kYIA" id="4vchr0lP1Vh" role="28aUo1" />
-    </node>
   </node>
 </model>
 

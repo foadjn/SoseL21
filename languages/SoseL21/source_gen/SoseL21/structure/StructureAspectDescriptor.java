@@ -17,6 +17,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptBinaryComparisonExpression = createDescriptorForBinaryComparisonExpression();
   /*package*/ final ConceptDescriptor myConceptBinaryExpression = createDescriptorForBinaryExpression();
   /*package*/ final ConceptDescriptor myConceptBoolean = createDescriptorForBoolean();
+  /*package*/ final ConceptDescriptor myConceptControlStatement = createDescriptorForControlStatement();
   /*package*/ final ConceptDescriptor myConceptDivExpression = createDescriptorForDivExpression();
   /*package*/ final ConceptDescriptor myConceptElifStatement = createDescriptorForElifStatement();
   /*package*/ final ConceptDescriptor myConceptElseStatement = createDescriptorForElseStatement();
@@ -56,7 +57,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptBinaryArithmeticExpression, myConceptBinaryComparisonExpression, myConceptBinaryExpression, myConceptBoolean, myConceptDivExpression, myConceptElifStatement, myConceptElseStatement, myConceptEqualsExpression, myConceptExpressionStatement, myConceptForStatement, myConceptFunctionStatement, myConceptGreaterEqualExp, myConceptGreaterExpression, myConceptIExpression, myConceptIStatement, myConceptIfStatement, myConceptInteger, myConceptLessEqualExp, myConceptLessExpression, myConceptMinusExpression, myConceptMulExpression, myConceptNotEqualExpression, myConceptParameter, myConceptPlusExpression, myConceptReference, myConceptSoSeWorksheet, myConceptStringLiteral, myConceptVariableDeclaration, myConceptWhileStatement);
+    return Arrays.asList(myConceptBinaryArithmeticExpression, myConceptBinaryComparisonExpression, myConceptBinaryExpression, myConceptBoolean, myConceptControlStatement, myConceptDivExpression, myConceptElifStatement, myConceptElseStatement, myConceptEqualsExpression, myConceptExpressionStatement, myConceptForStatement, myConceptFunctionStatement, myConceptGreaterEqualExp, myConceptGreaterExpression, myConceptIExpression, myConceptIStatement, myConceptIfStatement, myConceptInteger, myConceptLessEqualExp, myConceptLessExpression, myConceptMinusExpression, myConceptMulExpression, myConceptNotEqualExpression, myConceptParameter, myConceptPlusExpression, myConceptReference, myConceptSoSeWorksheet, myConceptStringLiteral, myConceptVariableDeclaration, myConceptWhileStatement);
   }
 
   @Override
@@ -71,6 +72,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptBinaryExpression;
       case LanguageConceptSwitch.Boolean:
         return myConceptBoolean;
+      case LanguageConceptSwitch.ControlStatement:
+        return myConceptControlStatement;
       case LanguageConceptSwitch.DivExpression:
         return myConceptDivExpression;
       case LanguageConceptSwitch.ElifStatement:
@@ -165,6 +168,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.property("value", 0x2295cc05f84138cL).type(PrimitiveTypeId.BOOLEAN).origin("155757643426960268").done();
     b.alias("boolean");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForControlStatement() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("SoseL21", "ControlStatement", 0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x47cc45b015d41f0aL);
+    b.class_(false, false, false);
+    b.parent(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x782cac11e196585fL);
+    b.origin("r:3feced63-76c9-43c3-bfaf-118107b568a7(SoseL21.structure)/5173586694524641034");
+    b.version(2);
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForDivExpression() {
@@ -273,7 +284,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForIfStatement() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("SoseL21", "IfStatement", 0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x74a09ebffc8b38bdL);
     b.class_(false, false, false);
-    b.parent(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x782cac11e196585fL);
+    b.super_("SoseL21.structure.ControlStatement", 0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x47cc45b015d41f0aL);
     b.origin("r:3feced63-76c9-43c3-bfaf-118107b568a7(SoseL21.structure)/8403891452086270141");
     b.version(2);
     b.aggregate("bool", 0x74a09ebffc8b38beL).target(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x58aeb4a19afd5f07L).optional(false).ordered(true).multiple(false).origin("8403891452086270142").done();
