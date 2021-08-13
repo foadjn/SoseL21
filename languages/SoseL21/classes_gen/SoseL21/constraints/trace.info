@@ -13,7 +13,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="ConstraintsAspectDescriptor.java">
-      <unit at="13,0,31,0" name="SoseL21.constraints.ConstraintsAspectDescriptor" />
+      <unit at="13,0,35,0" name="SoseL21.constraints.ConstraintsAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:22fa5c38-a13e-4244-be0a-1b45691ce23f(SoseL21.constraints)/5173586694524626486">
@@ -61,6 +61,100 @@
       <unit id="5173586694524626486" at="48,0,52,0" name="SoseL21.constraints.BinaryExpression_Constraints$CONCEPTS" />
       <unit id="5173586694524626486" at="26,15,37,5" name="SoseL21.constraints.BinaryExpression_Constraints$1" />
       <unit id="5173586694524626486" at="19,0,53,0" name="SoseL21.constraints.BinaryExpression_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:22fa5c38-a13e-4244-be0a-1b45691ce23f(SoseL21.constraints)/8133249555266912488">
+    <file name="Parameter_Constraints.java">
+      <node id="8133249555266912488" at="20,34,21,33" concept="10" />
+      <node id="8133249555266912488" at="28,127,29,128" concept="5" />
+      <node id="8133249555266912488" at="29,128,30,0" concept="7" />
+      <node id="8133249555266912488" at="31,55,32,71" concept="2" />
+      <node id="8133249555266912488" at="33,9,34,0" concept="7" />
+      <node id="8133249555266912488" at="34,0,35,22" concept="6" />
+      <node id="8133249555266914442" at="40,82,41,18" concept="6" />
+      <node id="8133249555266914588" at="42,12,43,19" concept="6" />
+      <node id="8133249555266912488" at="46,0,47,0" concept="8" trace="canBeChildBreakingPoint" />
+      <node id="8133249555266912488" at="49,0,50,0" concept="8" trace="Parameter$98" />
+      <node id="8133249555266912488" at="50,0,51,0" concept="8" trace="FunctionStatement$$s" />
+      <node id="8133249555266914530" at="42,10,44,5" concept="0" />
+      <node id="8133249555266912488" at="20,0,23,0" concept="1" trace="Parameter_Constraints#()V" />
+      <node id="8133249555266912488" at="30,0,33,9" concept="3" />
+      <node id="8133249555266912739" at="39,128,44,5" concept="3" />
+      <node id="8133249555266912488" at="39,0,46,0" concept="9" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="8133249555266912488" at="27,0,37,0" concept="4" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="8133249555266912488" at="25,103,37,6" concept="6" />
+      <node id="8133249555266912488" at="24,0,39,0" concept="4" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="8133249555266912488" at="20,34,21,33" />
+      <scope id="8133249555266912488" at="31,55,32,71" />
+      <scope id="8133249555266912741" at="40,82,41,18" />
+      <scope id="8133249555266914531" at="42,12,43,19" />
+      <scope id="8133249555266912488" at="20,0,23,0" />
+      <scope id="8133249555266912490" at="39,128,44,5" />
+      <scope id="8133249555266912488" at="28,127,35,22">
+        <var name="result" id="8133249555266912488" />
+      </scope>
+      <scope id="8133249555266912488" at="39,0,46,0">
+        <var name="childConcept" id="8133249555266912488" />
+        <var name="link" id="8133249555266912488" />
+        <var name="node" id="8133249555266912488" />
+        <var name="parentNode" id="8133249555266912488" />
+      </scope>
+      <scope id="8133249555266912488" at="27,0,37,0">
+        <var name="checkingNodeContext" id="8133249555266912488" />
+        <var name="context" id="8133249555266912488" />
+      </scope>
+      <scope id="8133249555266912488" at="25,103,37,6" />
+      <scope id="8133249555266912488" at="24,0,39,0" />
+      <unit id="8133249555266912488" at="48,0,52,0" name="SoseL21.constraints.Parameter_Constraints$CONCEPTS" />
+      <unit id="8133249555266912488" at="26,15,37,5" name="SoseL21.constraints.Parameter_Constraints$1" />
+      <unit id="8133249555266912488" at="19,0,53,0" name="SoseL21.constraints.Parameter_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:22fa5c38-a13e-4244-be0a-1b45691ce23f(SoseL21.constraints)/8133249555266922107">
+    <file name="Variable_Constraints.java">
+      <node id="8133249555266922107" at="20,33,21,32" concept="10" />
+      <node id="8133249555266922107" at="28,127,29,128" concept="5" />
+      <node id="8133249555266922107" at="29,128,30,0" concept="7" />
+      <node id="8133249555266922107" at="31,55,32,71" concept="2" />
+      <node id="8133249555266922107" at="33,9,34,0" concept="7" />
+      <node id="8133249555266922107" at="34,0,35,22" concept="6" />
+      <node id="8133249555266939828" at="40,84,41,19" concept="6" />
+      <node id="8133249555266940483" at="42,12,43,18" concept="6" />
+      <node id="8133249555266922107" at="46,0,47,0" concept="8" trace="canBeChildBreakingPoint" />
+      <node id="8133249555266922107" at="49,0,50,0" concept="8" trace="Variable$Xe" />
+      <node id="8133249555266922107" at="50,0,51,0" concept="8" trace="ExpressionStatement$tx" />
+      <node id="8133249555266939958" at="42,10,44,5" concept="0" />
+      <node id="8133249555266922107" at="20,0,23,0" concept="1" trace="Variable_Constraints#()V" />
+      <node id="8133249555266922107" at="30,0,33,9" concept="3" />
+      <node id="8133249555266937750" at="39,128,44,5" concept="3" />
+      <node id="8133249555266922107" at="39,0,46,0" concept="9" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="8133249555266922107" at="27,0,37,0" concept="4" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="8133249555266922107" at="25,103,37,6" concept="6" />
+      <node id="8133249555266922107" at="24,0,39,0" concept="4" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="8133249555266922107" at="20,33,21,32" />
+      <scope id="8133249555266922107" at="31,55,32,71" />
+      <scope id="8133249555266937752" at="40,84,41,19" />
+      <scope id="8133249555266939959" at="42,12,43,18" />
+      <scope id="8133249555266922107" at="20,0,23,0" />
+      <scope id="8133249555266937500" at="39,128,44,5" />
+      <scope id="8133249555266922107" at="28,127,35,22">
+        <var name="result" id="8133249555266922107" />
+      </scope>
+      <scope id="8133249555266922107" at="39,0,46,0">
+        <var name="childConcept" id="8133249555266922107" />
+        <var name="link" id="8133249555266922107" />
+        <var name="node" id="8133249555266922107" />
+        <var name="parentNode" id="8133249555266922107" />
+      </scope>
+      <scope id="8133249555266922107" at="27,0,37,0">
+        <var name="checkingNodeContext" id="8133249555266922107" />
+        <var name="context" id="8133249555266922107" />
+      </scope>
+      <scope id="8133249555266922107" at="25,103,37,6" />
+      <scope id="8133249555266922107" at="24,0,39,0" />
+      <unit id="8133249555266922107" at="48,0,52,0" name="SoseL21.constraints.Variable_Constraints$CONCEPTS" />
+      <unit id="8133249555266922107" at="26,15,37,5" name="SoseL21.constraints.Variable_Constraints$1" />
+      <unit id="8133249555266922107" at="19,0,53,0" name="SoseL21.constraints.Variable_Constraints" />
     </file>
   </root>
   <root nodeRef="r:22fa5c38-a13e-4244-be0a-1b45691ce23f(SoseL21.constraints)/8659485376325975294">

@@ -37,6 +37,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Reference;
   private ConceptPresentation props_SoSeWorksheet;
   private ConceptPresentation props_StringLiteral;
+  private ConceptPresentation props_Variable;
   private ConceptPresentation props_VariableDeclaration;
   private ConceptPresentation props_WhileStatement;
 
@@ -54,7 +55,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.BinaryComparisonExpression:
         if (props_BinaryComparisonExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.presentationByName();
           props_BinaryComparisonExpression = cpb.create();
         }
         return props_BinaryComparisonExpression;
@@ -74,7 +74,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.ControlStatement:
         if (props_ControlStatement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.presentationByName();
           props_ControlStatement = cpb.create();
         }
         return props_ControlStatement;
@@ -237,6 +236,12 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_StringLiteral = cpb.create();
         }
         return props_StringLiteral;
+      case LanguageConceptSwitch.Variable:
+        if (props_Variable == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          props_Variable = cpb.create();
+        }
+        return props_Variable;
       case LanguageConceptSwitch.VariableDeclaration:
         if (props_VariableDeclaration == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
