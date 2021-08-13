@@ -19,6 +19,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_EqualsExpression;
   private ConceptPresentation props_ExpressionStatement;
   private ConceptPresentation props_ForStatement;
+  private ConceptPresentation props_FunctionStatement;
   private ConceptPresentation props_GreaterEqualExp;
   private ConceptPresentation props_GreaterExpression;
   private ConceptPresentation props_IExpression;
@@ -30,6 +31,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_MinusExpression;
   private ConceptPresentation props_MulExpression;
   private ConceptPresentation props_NotEqualExpression;
+  private ConceptPresentation props_Parameter;
   private ConceptPresentation props_PlusExpression;
   private ConceptPresentation props_Reference;
   private ConceptPresentation props_SoSeWorksheet;
@@ -110,6 +112,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_ForStatement = cpb.create();
         }
         return props_ForStatement;
+      case LanguageConceptSwitch.FunctionStatement:
+        if (props_FunctionStatement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_FunctionStatement = cpb.create();
+        }
+        return props_FunctionStatement;
       case LanguageConceptSwitch.GreaterEqualExp:
         if (props_GreaterEqualExp == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -185,6 +194,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_NotEqualExpression = cpb.create();
         }
         return props_NotEqualExpression;
+      case LanguageConceptSwitch.Parameter:
+        if (props_Parameter == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_Parameter = cpb.create();
+        }
+        return props_Parameter;
       case LanguageConceptSwitch.PlusExpression:
         if (props_PlusExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

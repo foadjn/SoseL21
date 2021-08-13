@@ -19,23 +19,25 @@ public final class LanguageConceptSwitch {
   public static final int EqualsExpression = 7;
   public static final int ExpressionStatement = 8;
   public static final int ForStatement = 9;
-  public static final int GreaterEqualExp = 10;
-  public static final int GreaterExpression = 11;
-  public static final int IExpression = 12;
-  public static final int IStatement = 13;
-  public static final int IfStatement = 14;
-  public static final int Integer = 15;
-  public static final int LessEqualExp = 16;
-  public static final int LessExpression = 17;
-  public static final int MinusExpression = 18;
-  public static final int MulExpression = 19;
-  public static final int NotEqualExpression = 20;
-  public static final int PlusExpression = 21;
-  public static final int Reference = 22;
-  public static final int SoSeWorksheet = 23;
-  public static final int StringLiteral = 24;
-  public static final int VariableDeclaration = 25;
-  public static final int WhileStatement = 26;
+  public static final int FunctionStatement = 10;
+  public static final int GreaterEqualExp = 11;
+  public static final int GreaterExpression = 12;
+  public static final int IExpression = 13;
+  public static final int IStatement = 14;
+  public static final int IfStatement = 15;
+  public static final int Integer = 16;
+  public static final int LessEqualExp = 17;
+  public static final int LessExpression = 18;
+  public static final int MinusExpression = 19;
+  public static final int MulExpression = 20;
+  public static final int NotEqualExpression = 21;
+  public static final int Parameter = 22;
+  public static final int PlusExpression = 23;
+  public static final int Reference = 24;
+  public static final int SoSeWorksheet = 25;
+  public static final int StringLiteral = 26;
+  public static final int VariableDeclaration = 27;
+  public static final int WhileStatement = 28;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xf54c6703341840bcL, 0xbe9312879578d6a1L);
@@ -49,6 +51,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x74a09ebffc886fd9L, EqualsExpression);
     builder.put(0x58aeb4a19afd5f06L, ExpressionStatement);
     builder.put(0x74a09ebffc8edef7L, ForStatement);
+    builder.put(0x74a09ebffc95860bL, FunctionStatement);
     builder.put(0x74a09ebffc88a616L, GreaterEqualExp);
     builder.put(0x74a09ebffc887046L, GreaterExpression);
     builder.put(0x58aeb4a19afd5f07L, IExpression);
@@ -60,6 +63,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x1c76dea34890e0edL, MinusExpression);
     builder.put(0x1c76dea34890e0eeL, MulExpression);
     builder.put(0x74a09ebffc88a617L, NotEqualExpression);
+    builder.put(0x74a09ebffc9790ecL, Parameter);
     builder.put(0x58aeb4a19afd5f1fL, PlusExpression);
     builder.put(0x782cac11e1965871L, Reference);
     builder.put(0x782cac11e1965857L, SoSeWorksheet);
