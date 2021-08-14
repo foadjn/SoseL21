@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-9ff7otpithk4e68eo4kk812f19l8vx">
-  <files names="BinaryExpression_Constraints.java:ConstraintsAspectDescriptor.java:Parameter_Constraints.java:Reference_Constraints.java:Variable_Constraints.java" />
+<product version="3" modelHash="cttp3rq417axyxkrrogqwfou1rkjrey">
+  <files names="BinaryExpression_Constraints.java:ConstraintsAspectDescriptor.java:Parameter_Constraints.java:Reference_Constraints.java:VariableDeclaration_Constraints.java:Variable_Constraints.java" />
 </product>
 

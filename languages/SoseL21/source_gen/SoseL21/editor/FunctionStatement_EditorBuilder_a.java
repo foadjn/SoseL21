@@ -151,7 +151,7 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
       return LINKS.param$gt3V;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.IExpression$u0;
+      return CONCEPTS.Parameter$98;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -390,6 +390,7 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept PropertyAttribute$Gb = MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da56L, "jetbrains.mps.lang.core.structure.PropertyAttribute");
+    /*package*/ static final SConcept Parameter$98 = MetaAdapterFactory.getConcept(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x74a09ebffc9790ecL, "SoseL21.structure.Parameter");
     /*package*/ static final SInterfaceConcept IExpression$u0 = MetaAdapterFactory.getInterfaceConcept(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x58aeb4a19afd5f07L, "SoseL21.structure.IExpression");
     /*package*/ static final SInterfaceConcept IStatement$Fe = MetaAdapterFactory.getInterfaceConcept(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x782cac11e196585fL, "SoseL21.structure.IStatement");
   }

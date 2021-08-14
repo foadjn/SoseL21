@@ -28,7 +28,7 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import org.jetbrains.mps.openapi.language.SConcept;
+import org.jetbrains.mps.openapi.language.SInterfaceConcept;
 
 /*package*/ class IfStatement_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
@@ -189,7 +189,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return LINKS.statements$NKgP;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.ExpressionStatement$tx;
+      return CONCEPTS.IStatement$Fe;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -252,6 +252,6 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept ExpressionStatement$tx = MetaAdapterFactory.getConcept(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x58aeb4a19afd5f06L, "SoseL21.structure.ExpressionStatement");
+    /*package*/ static final SInterfaceConcept IStatement$Fe = MetaAdapterFactory.getInterfaceConcept(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x782cac11e196585fL, "SoseL21.structure.IStatement");
   }
 }
