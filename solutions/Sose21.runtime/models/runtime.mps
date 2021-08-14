@@ -22,6 +22,7 @@
         <child id="6390243527468343126" name="left" index="32kYJR" />
         <child id="6390243527468343130" name="right" index="32kYJV" />
       </concept>
+      <concept id="6390243527468343047" name="SoseL21.structure.IExpression" flags="ng" index="32kYIA" />
       <concept id="6390243527468343046" name="SoseL21.structure.ExpressionStatement" flags="ng" index="32kYIB">
         <child id="6390243527468343048" name="expression" index="32kYID" />
       </concept>
@@ -94,6 +95,9 @@
   </node>
   <node concept="2pIJh6" id="6GhqEKAmXHg">
     <property role="TrG5h" value="wk1" />
+    <node concept="32kYIF" id="7QXBcf2NuEL" role="2pIJhz">
+      <node concept="32kYIA" id="7QXBcf2NuEM" role="32kYIE" />
+    </node>
   </node>
 </model>
 
