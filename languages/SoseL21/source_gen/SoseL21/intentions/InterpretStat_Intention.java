@@ -14,19 +14,11 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
 import java.util.Collections;
 import jetbrains.mps.intentions.AbstractIntentionExecutable;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import COPL.Interpreter.plugin.EvaluationHelper;
+import com.intellij.openapi.ui.Messages;
 import jetbrains.mps.baseLanguage.logging.runtime.model.LoggingRuntime;
 import org.apache.log4j.Level;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import SoseL21.plugin.Evalhelper;
-import com.intellij.openapi.ui.Messages;
 import jetbrains.mps.openapi.intentions.IntentionDescriptor;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
-import org.jetbrains.mps.openapi.language.SProperty;
-import org.jetbrains.mps.openapi.language.SConcept;
 
 public final class InterpretStat_Intention extends AbstractIntentionDescriptor implements IntentionFactory {
   private static final Logger LOG = LogManager.getLogger(InterpretStat_Intention.class);
@@ -61,48 +53,16 @@ public final class InterpretStat_Intention extends AbstractIntentionDescriptor i
     }
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
-      if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(node, LINKS.left$3Gic), CONCEPTS.Integer$EJ)) {
-        SNode leftNode = ((SNode) SLinkOperations.getTarget(node, LINKS.left$3Gic));
-        int leftVal = SPropertyOperations.getInteger(leftNode, PROPS.value$h_B6);
-        LoggingRuntime.logMsgView(Level.DEBUG, "value is: " + SPropertyOperations.getInteger(leftNode, PROPS.value$h_B6), InterpretStat_Intention.class, null, null);
-      }
-      LoggingRuntime.logMsgView(Level.DEBUG, "node instance: " + SNodeOperations.isInstanceOf(SLinkOperations.getTarget(node, LINKS.left$3Gic), CONCEPTS.Integer$EJ), InterpretStat_Intention.class, null, null);
 
-      if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(node, LINKS.right$3M9_), CONCEPTS.Integer$EJ)) {
-        SNode rightNode = ((SNode) SLinkOperations.getTarget(node, LINKS.right$3M9_));
-        int rightVal = SPropertyOperations.getInteger(rightNode, PROPS.value$h_B6);
-      }
+      String evaluation_result = EvaluationHelper.eval(node);
+      Messages.showInfoMessage(evaluation_result, "Interpreted");
 
+      LoggingRuntime.logMsgView(Level.INFO, "Interpreted: " + evaluation_result, InterpretStat_Intention.class, null, null);
 
-      SNode newNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x58aeb4a19afd5f19L, "SoseL21.structure.StringLiteral"));
-      String temp = "10 + 10";
-      SPropertyOperations.assign(newNode, PROPS.value$RdaI, temp);
-      LoggingRuntime.logMsgView(Level.DEBUG, "newNode is: " + newNode, InterpretStat_Intention.class, null, null);
-      LoggingRuntime.logMsgView(Level.DEBUG, "smaódelattribut is: " + SLinkOperations.getChildren(newNode, LINKS.smodelAttribute$KJ43), InterpretStat_Intention.class, null, null);
-
-      Evalhelper helper = new Evalhelper();
-      String eval = helper.eval(newNode);
-      Messages.showInfoMessage(eval, "Interpreted");
-      LoggingRuntime.logMsgView(Level.INFO, "Interpreted" + eval, InterpretStat_Intention.class, null, null);
     }
     @Override
     public IntentionDescriptor getDescriptor() {
       return InterpretStat_Intention.this;
     }
-  }
-
-  private static final class LINKS {
-    /*package*/ static final SContainmentLink left$3Gic = MetaAdapterFactory.getContainmentLink(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x5513d330c86313aeL, 0x58aeb4a19afd5f56L, "left");
-    /*package*/ static final SContainmentLink right$3M9_ = MetaAdapterFactory.getContainmentLink(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x5513d330c86313aeL, 0x58aeb4a19afd5f5aL, "right");
-    /*package*/ static final SContainmentLink smodelAttribute$KJ43 = MetaAdapterFactory.getContainmentLink(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL, 0x47bf8397520e5942L, "smodelAttribute");
-  }
-
-  private static final class PROPS {
-    /*package*/ static final SProperty value$h_B6 = MetaAdapterFactory.getProperty(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x782cac11e196585eL, 0x58aeb4a19afd5f11L, "value");
-    /*package*/ static final SProperty value$RdaI = MetaAdapterFactory.getProperty(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x58aeb4a19afd5f19L, 0x1c76dea3489077a6L, "value");
-  }
-
-  private static final class CONCEPTS {
-    /*package*/ static final SConcept Integer$EJ = MetaAdapterFactory.getConcept(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x782cac11e196585eL, "SoseL21.structure.Integer");
   }
 }

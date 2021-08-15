@@ -1,11 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependenciesRoot>
-  <dependency className="SoseL21.plugin.Evalhelper">
-    <classNode dependClassName="com.mbeddr.mpsutil.interpreter.rt.InterpreterEvaluationHelper" />
-    <classNode dependClassName="java.lang.Exception" />
-    <classNode dependClassName="java.lang.Object" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-  </dependency>
-</dependenciesRoot>
+<dependenciesRoot />
 
