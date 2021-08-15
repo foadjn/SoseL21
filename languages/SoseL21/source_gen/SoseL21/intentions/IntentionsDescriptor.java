@@ -33,7 +33,7 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
     switch (conceptIndex.index(cncpt)) {
       case 0:
         if (true) {
-          // concept
+          // concept 
           intentions = new IntentionFactory[1];
           intentions[0] = new InterpretStat_Intention();
         }
@@ -51,5 +51,5 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
     rv[0] = new InterpretStat_Intention();
     return Arrays.asList(rv);
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x58aeb4a19afd5f1fL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xf54c6703341840bcL, 0xbe9312879578d6a1L, 0x58aeb4a19afd5f1cL)).seal();
 }

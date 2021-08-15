@@ -78,7 +78,7 @@
   </registry>
   <node concept="2S6QgY" id="13fgJkxdOHy">
     <property role="TrG5h" value="InterpretStat" />
-    <ref role="2ZfgGC" to="nrly:5yIHa6qZlWv" resolve="PlusExpression" />
+    <ref role="2ZfgGC" to="nrly:5yIHa6qZlWs" resolve="BinaryArithmeticExpression" />
     <node concept="2S6ZIM" id="13fgJkxdOHz" role="2ZfVej">
       <node concept="3clFbS" id="13fgJkxdOH$" role="2VODD2">
         <node concept="3clFbF" id="13fgJkxdOMC" role="3cqZAp">

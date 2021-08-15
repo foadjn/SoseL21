@@ -18,6 +18,7 @@
       <concept id="8659485376325769310" name="SoseL21.structure.Integer" flags="ng" index="2pIJhf">
         <property id="6390243527468343057" name="value" index="32kYIK" />
       </concept>
+      <concept id="8659485376325769329" name="SoseL21.structure.Reference" flags="ng" index="2pIJhw" />
       <concept id="6130475724255204270" name="SoseL21.structure.BinaryExpression" flags="ng" index="2tsc2u">
         <child id="6390243527468343126" name="left" index="32kYJR" />
         <child id="6390243527468343130" name="right" index="32kYJV" />
@@ -33,6 +34,7 @@
       </concept>
       <concept id="6390243527468343071" name="SoseL21.structure.PlusExpression" flags="ng" index="32kYIY" />
       <concept id="2051071473192329455" name="SoseL21.structure.DivExpression" flags="ng" index="1kTzTc" />
+      <concept id="2051071473192329454" name="SoseL21.structure.MulExpression" flags="ng" index="1kTzTd" />
       <concept id="2051071473192329453" name="SoseL21.structure.MinusExpression" flags="ng" index="1kTzTe" />
     </language>
   </registry>
@@ -94,15 +96,64 @@
   </node>
   <node concept="2pIJh6" id="6GhqEKAmXHg">
     <property role="TrG5h" value="wk1" />
-    <node concept="32kYIB" id="6dNZHQ8MWuX" role="2pIJhz">
-      <node concept="32kYIY" id="6dNZHQ8MWv1" role="32kYID">
-        <node concept="2pIJhf" id="6dNZHQ8MWv8" role="32kYJR">
-          <property role="32kYIK" value="2" />
+    <node concept="32kYIF" id="1Lu0agQdvVk" role="2pIJhz">
+      <property role="TrG5h" value="a" />
+      <node concept="2pIJhf" id="1Lu0agQdvV_" role="32kYIE">
+        <property role="32kYIK" value="10" />
+      </node>
+    </node>
+    <node concept="32kYIB" id="1Lu0agQdvW3" role="2pIJhz">
+      <node concept="32kYIY" id="1Lu0agQdNbP" role="32kYID">
+        <node concept="2pIJhf" id="1Lu0agQdNAd" role="32kYJV">
+          <property role="32kYIK" value="16" />
         </node>
-        <node concept="2pIJhf" id="6dNZHQ8MWvb" role="32kYJV">
+        <node concept="2pIJhf" id="1Lu0agQdNAi" role="32kYJR">
+          <property role="32kYIK" value="10" />
+        </node>
+      </node>
+    </node>
+    <node concept="32kYIB" id="1Lu0agQes1t" role="2pIJhz">
+      <node concept="1kTzTc" id="1Lu0agQes1C" role="32kYID">
+        <node concept="2pIJhf" id="1Lu0agQes1J" role="32kYJR">
+          <property role="32kYIK" value="10" />
+        </node>
+        <node concept="2pIJhf" id="1Lu0agQes1P" role="32kYJV">
           <property role="32kYIK" value="2" />
         </node>
       </node>
+    </node>
+    <node concept="32kYIB" id="1Lu0agQes24" role="2pIJhz">
+      <node concept="1kTzTd" id="1Lu0agQes2j" role="32kYID">
+        <node concept="2pIJhf" id="1Lu0agQes2q" role="32kYJR">
+          <property role="32kYIK" value="10" />
+        </node>
+        <node concept="2pIJhf" id="1Lu0agQes2t" role="32kYJV">
+          <property role="32kYIK" value="10" />
+        </node>
+      </node>
+    </node>
+    <node concept="32kYIB" id="1Lu0agQes2K" role="2pIJhz">
+      <node concept="1kTzTe" id="1Lu0agQes33" role="32kYID">
+        <node concept="2pIJhf" id="1Lu0agQes3a" role="32kYJR">
+          <property role="32kYIK" value="10" />
+        </node>
+        <node concept="2pIJhf" id="1Lu0agQes3d" role="32kYJV">
+          <property role="32kYIK" value="2" />
+        </node>
+      </node>
+    </node>
+    <node concept="32kYIB" id="1Lu0agQeKgx" role="2pIJhz">
+      <node concept="1kTzTc" id="1Lu0agQeSuR" role="32kYID">
+        <node concept="2pIJhf" id="1Lu0agQeSuY" role="32kYJR">
+          <property role="32kYIK" value="10" />
+        </node>
+        <node concept="2pIJhf" id="1Lu0agQeSv4" role="32kYJV">
+          <property role="32kYIK" value="0" />
+        </node>
+      </node>
+    </node>
+    <node concept="32kYIF" id="1Lu0agQfdEI" role="2pIJhz">
+      <node concept="2pIJhw" id="1Lu0agQfr8I" role="32kYIE" />
     </node>
   </node>
 </model>
