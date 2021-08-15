@@ -345,5 +345,36 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="1Lu0agQkn29">
+    <ref role="1M2myG" to="nrly:1Lu0agQi07_" resolve="Class" />
+    <node concept="9S07l" id="1Lu0agQkn2a" role="9Vyp8">
+      <node concept="3clFbS" id="1Lu0agQkn2b" role="2VODD2">
+        <node concept="3clFbJ" id="1Lu0agQkn6Z" role="3cqZAp">
+          <node concept="2OqwBi" id="1Lu0agQknjS" role="3clFbw">
+            <node concept="nLn13" id="1Lu0agQkn7u" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="1Lu0agQknuh" role="2OqNvi">
+              <node concept="chp4Y" id="1Lu0agQknM2" role="cj9EA">
+                <ref role="cht4Q" to="nrly:7wGF17x__xn" resolve="SoSeWorksheet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="1Lu0agQkn71" role="3clFbx">
+            <node concept="3cpWs6" id="1Lu0agQkn$C" role="3cqZAp">
+              <node concept="3clFbT" id="1Lu0agQknVs" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="1Lu0agQknDv" role="9aQIa">
+            <node concept="3clFbS" id="1Lu0agQknDw" role="9aQI4">
+              <node concept="3cpWs6" id="1Lu0agQknJu" role="3cqZAp">
+                <node concept="3clFbT" id="1Lu0agQknYq" role="3cqZAk" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
