@@ -6,7 +6,9 @@ package runtime;
 public class wk1 {
 
   public static void main(String[] args) {
-    int a = 1;<!TextGen not found for 'SoseL21.structure.Reference'!>
+    int a = 1;
+    String c = "Hello!";
+    boolean d = false;
 
   }
 }

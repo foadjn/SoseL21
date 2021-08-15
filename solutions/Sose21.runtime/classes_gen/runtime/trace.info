@@ -7,11 +7,11 @@
     <file name="wk2.java">
       <node id="2051071473192251077" at="8,42,9,15" concept="0" />
       <node id="7715064924272593831" at="9,15,10,15" concept="0" />
-      <node id="2051071473192251074" at="10,74,11,0" concept="1" />
+      <node id="2051071473192251074" at="10,15,11,0" concept="1" />
       <node id="2051071473192251074" at="8,0,13,0" concept="2" trace="main#([Ljava/lang/String;)V" />
       <scope id="2051071473192251074" at="8,42,11,0">
-        <var name="a" id="2051071473192251077" />
-        <var name="b" id="7715064924272593831" />
+        <var name="x" id="7715064924272593831" />
+        <var name="y" id="2051071473192251077" />
       </scope>
       <scope id="2051071473192251074" at="8,0,13,0">
         <var name="args" id="2051071473192251074" />
@@ -22,15 +22,21 @@
   <root nodeRef="r:b48c80a6-99d3-4734-a51a-2f6b7b6861cf(runtime)/7715064924272843600">
     <file name="wk1.java">
       <node id="9122678988774904732" at="8,42,9,14" concept="0" />
-      <node id="7715064924272843600" at="9,69,10,0" concept="1" />
-      <node id="7715064924272843600" at="8,0,12,0" concept="2" trace="main#([Ljava/lang/String;)V" />
-      <scope id="7715064924272843600" at="8,42,10,0">
-        <var name="a" id="9122678988774904732" />
+      <node id="2044071986158711623" at="9,14,10,24" concept="0" />
+      <node id="2044071986158742884" at="10,24,11,22" concept="0" />
+      <node id="7715064924272843600" at="11,22,12,0" concept="1" />
+      <node id="7715064924272843600" at="8,0,14,0" concept="2" trace="main#([Ljava/lang/String;)V" />
+      <scope id="2044071986158711623" at="9,14,10,24">
+        <var name="c" id="2044071986158711623" />
       </scope>
-      <scope id="7715064924272843600" at="8,0,12,0">
+      <scope id="7715064924272843600" at="8,42,12,0">
+        <var name="a" id="9122678988774904732" />
+        <var name="d" id="2044071986158742884" />
+      </scope>
+      <scope id="7715064924272843600" at="8,0,14,0">
         <var name="args" id="7715064924272843600" />
       </scope>
-      <unit id="7715064924272843600" at="6,0,13,0" name="runtime.wk1" />
+      <unit id="7715064924272843600" at="6,0,15,0" name="runtime.wk1" />
     </file>
   </root>
 </debug-info>
