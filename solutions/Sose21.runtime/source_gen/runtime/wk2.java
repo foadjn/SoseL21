@@ -6,8 +6,8 @@ package runtime;
 public class wk2 {
 
   public static void main(String[] args) {
-    int a = 10;
-    int b = 10;<!TextGen not found for 'SoseL21.structure.StringLiteral'!>
+    int y = 10;
+    int x = 10;
 
   }
 }
