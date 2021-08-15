@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67257371-2aa5-4790-ab28-08d70a63e774" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21.test/models/SoseL21.test.intentions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21.test/models/SoseL21.test.intentions.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21.test/models/SoseL21.test.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21.test/models/SoseL21.test.structure.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/COPL.Interpreter/models/COPL.Interpreter.plugin.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/COPL.Interpreter/models/COPL.Interpreter.plugin.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/Sose21.runtime/Sose21.runtime.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Sose21.runtime/Sose21.runtime.msd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/Sose21.runtime/models/runtime.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Sose21.runtime/models/runtime.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/Sose21.runtime/source_gen.caches/runtime/generated" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Sose21.runtime/source_gen.caches/runtime/generated" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -384,53 +378,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
+              <option name="myItemId" value="a34a55ee-a103-48ae-9f8a-768746b0e547" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:b48c80a6-99d3-4734-a51a-2f6b7b6861cf(runtime) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/solutions/Sose21.runtime/models/runtime.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:0d111bc5-2e40-4c6a-96bc-7bbd61f45a7c(SoseL21.intentions) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/languages/SoseL21/models/SoseL21.intentions.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3505a45a-f5a5-4947-9d96-63cfc7a46655(SoseL21.test)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:21ca0764-c6ec-412e-9e8b-251afa3e77ae(SoseL21.test.intentions) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/languages/SoseL21.test/models/SoseL21.test.intentions.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3505a45a-f5a5-4947-9d96-63cfc7a46655(SoseL21.test)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:c7f5251c-1ca4-42db-a2d7-5153224dd627(SoseL21.test.structure) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/languages/SoseL21.test/models/SoseL21.test.structure.mps]" />
+              <option name="myItemId" value="COPL" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -467,8 +419,86 @@
               <option name="myItemId" value="a34a55ee-a103-48ae-9f8a-768746b0e547" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="COPL" />
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:b48c80a6-99d3-4734-a51a-2f6b7b6861cf(runtime) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/solutions/Sose21.runtime/models/runtime.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:0d111bc5-2e40-4c6a-96bc-7bbd61f45a7c(SoseL21.intentions) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/languages/SoseL21/models/SoseL21.intentions.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3505a45a-f5a5-4947-9d96-63cfc7a46655(SoseL21.test)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c7f5251c-1ca4-42db-a2d7-5153224dd627(SoseL21.test.structure) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/languages/SoseL21.test/models/SoseL21.test.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3505a45a-f5a5-4947-9d96-63cfc7a46655(SoseL21.test)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:21ca0764-c6ec-412e-9e8b-251afa3e77ae(SoseL21.test.intentions) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/languages/SoseL21.test/models/SoseL21.test.intentions.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -490,7 +520,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
+          <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="SoseL21" />
               <option name="myItemType" value="" />
@@ -499,44 +529,12 @@
               <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
+              <option name="myItemId" value="r:b48c80a6-99d3-4734-a51a-2f6b7b6861cf(runtime) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/solutions/Sose21.runtime/models/runtime.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="a34a55ee-a103-48ae-9f8a-768746b0e547" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <SELECTED>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3505a45a-f5a5-4947-9d96-63cfc7a46655(SoseL21.test)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:21ca0764-c6ec-412e-9e8b-251afa3e77ae(SoseL21.test.intentions) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/languages/SoseL21.test/models/SoseL21.test.intentions.mps]" />
+              <option name="myItemId" value="8965221311608676287" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
