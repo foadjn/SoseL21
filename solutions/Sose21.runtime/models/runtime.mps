@@ -18,12 +18,14 @@
       <concept id="8659485376325769310" name="SoseL21.structure.Integer" flags="ng" index="2pIJhf">
         <property id="6390243527468343057" name="value" index="32kYIK" />
       </concept>
-      <concept id="8659485376325769326" name="SoseL21.structure.Boolean" flags="ng" index="2pIJhZ" />
+      <concept id="8659485376325769329" name="SoseL21.structure.Reference" flags="ng" index="2pIJhw">
+        <reference id="2079685202717789063" name="expression" index="14vsOF" />
+      </concept>
+      <concept id="2044071986158109157" name="SoseL21.structure.Class" flags="ng" index="E5w51">
+        <child id="2044071986158110037" name="body" index="E5wnL" />
+      </concept>
       <concept id="6390243527468343050" name="SoseL21.structure.VariableDeclaration" flags="ng" index="32kYIF">
         <child id="6390243527468343051" name="initializer" index="32kYIE" />
-      </concept>
-      <concept id="6390243527468343065" name="SoseL21.structure.StringLiteral" flags="ng" index="32kYIS">
-        <property id="2051071473192302502" name="value" index="1kTE$5" />
       </concept>
     </language>
   </registry>
@@ -44,21 +46,32 @@
   </node>
   <node concept="2pIJh6" id="6GhqEKAmXHg">
     <property role="TrG5h" value="wk1" />
-    <node concept="32kYIF" id="7Uqh3jdQheo" role="2pIJhz">
+    <node concept="32kYIF" id="1Lu0agQkRtH" role="2pIJhz">
       <property role="TrG5h" value="a" />
-      <node concept="2pIJhf" id="7Uqh3jdQhes" role="32kYIE">
-        <property role="32kYIK" value="1" />
+      <node concept="2pIJhf" id="1Lu0agQkRuh" role="32kYIE">
+        <property role="32kYIK" value="0" />
       </node>
     </node>
-    <node concept="32kYIF" id="1Lu0agQkjcY" role="2pIJhz">
-      <property role="TrG5h" value="c" />
-      <node concept="32kYIS" id="1Lu0agQkjd7" role="32kYIE">
-        <property role="1kTE$5" value="Hello!" />
+    <node concept="E5w51" id="1Lu0agQkR7I" role="2pIJhz">
+      <property role="TrG5h" value="Test" />
+      <node concept="32kYIF" id="1Lu0agQkRpS" role="E5wnL">
+        <property role="TrG5h" value="classInteger" />
+        <node concept="2pIJhf" id="1Lu0agQkRyX" role="32kYIE">
+          <property role="32kYIK" value="2" />
+        </node>
+      </node>
+      <node concept="32kYIF" id="1Lu0agQkRzQ" role="E5wnL">
+        <property role="TrG5h" value="globalAccess" />
+        <node concept="2pIJhw" id="1Lu0agQkR$o" role="32kYIE">
+          <ref role="14vsOF" node="1Lu0agQkRtH" resolve="a" />
+        </node>
       </node>
     </node>
-    <node concept="32kYIF" id="1Lu0agQkqPp" role="2pIJhz">
-      <property role="TrG5h" value="d" />
-      <node concept="2pIJhZ" id="1Lu0agQkqP$" role="32kYIE" />
+    <node concept="E5w51" id="1Lu0agQkRCM" role="2pIJhz">
+      <property role="TrG5h" value="Another" />
+      <node concept="32kYIF" id="1Lu0agQkRKy" role="E5wnL">
+        <node concept="2pIJhw" id="1Lu0agQkRL1" role="32kYIE" />
+      </node>
     </node>
   </node>
 </model>
