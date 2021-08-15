@@ -118,8 +118,8 @@
             <property role="TrG5h" value="eval_resString" />
             <node concept="17QB3L" id="7qwJ5wyzJVm" role="1tU5fm" />
             <node concept="2YIFZM" id="7qwJ5wyzL3W" role="33vP2m">
-              <ref role="37wK5l" to="rm8s:7qwJ5wyzBZ7" resolve="eval" />
-              <ref role="1Pybhc" to="rm8s:7qwJ5wyzBGa" resolve="TestEvaluationHelper" />
+              <ref role="1Pybhc" to="rm8s:7LERkxVbiEh" resolve="TestEvaluationHelper" />
+              <ref role="37wK5l" to="rm8s:7LERkxVbiQO" resolve="eval" />
               <node concept="2Sf5sV" id="7qwJ5wyzL4p" role="37wK5m" />
             </node>
           </node>

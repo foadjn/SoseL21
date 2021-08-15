@@ -67,6 +67,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="true">f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)</dependency>
+    <dependency reexport="true">a34a55ee-a103-48ae-9f8a-768746b0e547(COPL.Interpreter)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
