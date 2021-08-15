@@ -32,6 +32,7 @@
       </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
+      <concept id="8313721352726366579" name="jetbrains.mps.lang.editor.structure.CellModel_Empty" flags="ng" index="35HoNQ" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
       </concept>
@@ -104,12 +105,13 @@
   </node>
   <node concept="24kQdi" id="7wGF17x_EFX">
     <ref role="1XX52x" to="nrly:7wGF17x__xL" resolve="Reference" />
-    <node concept="3EZMnI" id="7wGF17x_EFZ" role="2wV5jI">
-      <node concept="2iRfu4" id="7wGF17x_EG2" role="2iSdaV" />
-      <node concept="1iCGBv" id="73v6Q3NlThn" role="3EZMnx">
+    <node concept="3EZMnI" id="7Uqh3jdPEuE" role="2wV5jI">
+      <node concept="2iRfu4" id="7Uqh3jdPEuF" role="2iSdaV" />
+      <node concept="35HoNQ" id="7Uqh3jdQtSy" role="3EZMnx" />
+      <node concept="1iCGBv" id="7Uqh3jdQtSC" role="3EZMnx">
         <ref role="1NtTu8" to="nrly:1NsxELoCkI7" resolve="expression" />
-        <node concept="1sVBvm" id="73v6Q3NlTho" role="1sWHZn">
-          <node concept="3F0A7n" id="73v6Q3NlTht" role="2wV5jI">
+        <node concept="1sVBvm" id="7Uqh3jdQtSE" role="1sWHZn">
+          <node concept="3F0A7n" id="7Uqh3jdQtSM" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
