@@ -8,7 +8,6 @@
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="nrly" ref="r:3feced63-76c9-43c3-bfaf-118107b568a7(SoseL21.structure)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -63,13 +62,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="contents" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="7qwJ5wyy65M" resolve="ITestContent" />
-    </node>
-    <node concept="1TJgyj" id="7qwJ5wyy66l" role="1TKVEi">
-      <property role="IQ2ns" value="8548039179471708565" />
-      <property role="20kJfa" value="for" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="nrly:7wGF17x__xn" resolve="SoSeWorksheet" />
+      <ref role="20lvS9" node="7qwJ5wyy67k" resolve="AssertValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="7qwJ5wyy67k">
@@ -92,7 +85,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="expected_result" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="tpee:4_5hYVHKxAT" resolve="FloatingPointFloatConstant" />
+      <ref role="20lvS9" to="nrly:5yIHa6qZlWp" resolve="StringLiteral" />
     </node>
   </node>
 </model>

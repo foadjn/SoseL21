@@ -3,9 +3,19 @@
   <persistence version="9" />
   <languages>
     <use id="f54c6703-3418-40bc-be93-12879578d6a1" name="SoseL21" version="0" />
+    <use id="3505a45a-f5a5-4947-9d96-63cfc7a46655" name="SoseL21.test" version="0" />
   </languages>
   <imports />
   <registry>
+    <language id="3505a45a-f5a5-4947-9d96-63cfc7a46655" name="SoseL21.test">
+      <concept id="8548039179471708628" name="SoseL21.test.structure.AssertValue" flags="ng" index="1kadQc">
+        <child id="8548039179471714956" name="written_expression" index="1kacrk" />
+        <child id="8548039179471714958" name="expected_result" index="1kacrm" />
+      </concept>
+      <concept id="8548039179471708560" name="SoseL21.test.structure.TestCase" flags="ng" index="1kadR8">
+        <child id="8548039179471708563" name="contents" index="1kadRb" />
+      </concept>
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -19,12 +29,17 @@
         <property id="6390243527468343057" name="value" index="32kYIK" />
       </concept>
       <concept id="8659485376325769326" name="SoseL21.structure.Boolean" flags="ng" index="2pIJhZ" />
+      <concept id="6130475724255204270" name="SoseL21.structure.BinaryExpression" flags="ng" index="2tsc2u">
+        <child id="6390243527468343126" name="left" index="32kYJR" />
+        <child id="6390243527468343130" name="right" index="32kYJV" />
+      </concept>
       <concept id="6390243527468343050" name="SoseL21.structure.VariableDeclaration" flags="ng" index="32kYIF">
         <child id="6390243527468343051" name="initializer" index="32kYIE" />
       </concept>
       <concept id="6390243527468343065" name="SoseL21.structure.StringLiteral" flags="ng" index="32kYIS">
         <property id="2051071473192302502" name="value" index="1kTE$5" />
       </concept>
+      <concept id="6390243527468343071" name="SoseL21.structure.PlusExpression" flags="ng" index="32kYIY" />
     </language>
   </registry>
   <node concept="2pIJh6" id="1LQREd8zUV2">
@@ -59,6 +74,22 @@
     <node concept="32kYIF" id="1Lu0agQkqPp" role="2pIJhz">
       <property role="TrG5h" value="d" />
       <node concept="2pIJhZ" id="1Lu0agQkqP$" role="32kYIE" />
+    </node>
+  </node>
+  <node concept="1kadR8" id="7LERkxVc_YZ">
+    <property role="TrG5h" value="myTest" />
+    <node concept="1kadQc" id="7LERkxVc_Z2" role="1kadRb">
+      <node concept="32kYIY" id="7LERkxVc_Zf" role="1kacrk">
+        <node concept="2pIJhf" id="7LERkxVc_Zo" role="32kYJR">
+          <property role="32kYIK" value="12" />
+        </node>
+        <node concept="2pIJhf" id="7LERkxVc_Zr" role="32kYJV">
+          <property role="32kYIK" value="4" />
+        </node>
+      </node>
+      <node concept="32kYIS" id="7LERkxVc_Z8" role="1kacrm">
+        <property role="1kTE$5" value="16" />
+      </node>
     </node>
   </node>
 </model>
