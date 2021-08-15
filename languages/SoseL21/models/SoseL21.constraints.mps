@@ -314,5 +314,36 @@
   <node concept="1M2fIO" id="73v6Q3Nmnu2">
     <ref role="1M2myG" to="nrly:5yIHa6qZlWa" resolve="VariableDeclaration" />
   </node>
+  <node concept="1M2fIO" id="1Lu0agQkju3">
+    <ref role="1M2myG" to="nrly:7iwBFZW_oob" resolve="FunctionStatement" />
+    <node concept="9S07l" id="1Lu0agQkju4" role="9Vyp8">
+      <node concept="3clFbS" id="1Lu0agQkju5" role="2VODD2">
+        <node concept="3clFbJ" id="1Lu0agQkjxY" role="3cqZAp">
+          <node concept="2OqwBi" id="1Lu0agQkjFk" role="3clFbw">
+            <node concept="nLn13" id="1Lu0agQkjyt" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="1Lu0agQkjMa" role="2OqNvi">
+              <node concept="chp4Y" id="1Lu0agQkjOo" role="cj9EA">
+                <ref role="cht4Q" to="nrly:1Lu0agQi07_" resolve="Class" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="1Lu0agQkjy0" role="3clFbx">
+            <node concept="3cpWs6" id="1Lu0agQkjXZ" role="3cqZAp">
+              <node concept="3clFbT" id="1Lu0agQkjYK" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="1Lu0agQkk0$" role="9aQIa">
+            <node concept="3clFbS" id="1Lu0agQkk0_" role="9aQI4">
+              <node concept="3cpWs6" id="1Lu0agQkk1t" role="3cqZAp">
+                <node concept="3clFbT" id="1Lu0agQkk2c" role="3cqZAk" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

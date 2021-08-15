@@ -12,14 +12,6 @@
       </concept>
     </language>
     <language id="f54c6703-3418-40bc-be93-12879578d6a1" name="SoseL21">
-      <concept id="8403891452086945291" name="SoseL21.structure.FunctionStatement" flags="ng" index="28dhyO">
-        <child id="8403891452086945299" name="body" index="28dhyG" />
-        <child id="8403891452086945296" name="return_type" index="28dhyJ" />
-        <child id="8403891452086945294" name="param" index="28dhyL" />
-      </concept>
-      <concept id="8403891452087079148" name="SoseL21.structure.Parameter" flags="ng" index="28dKTj">
-        <child id="8403891452087079151" name="param" index="28dKTg" />
-      </concept>
       <concept id="8659485376325769303" name="SoseL21.structure.SoSeWorksheet" flags="ng" index="2pIJh6">
         <child id="8659485376325769330" name="contents" index="2pIJhz" />
       </concept>
@@ -29,12 +21,12 @@
       <concept id="8659485376325769329" name="SoseL21.structure.Reference" flags="ng" index="2pIJhw">
         <reference id="2079685202717789063" name="expression" index="14vsOF" />
       </concept>
+      <concept id="8659485376325769326" name="SoseL21.structure.Boolean" flags="ng" index="2pIJhZ">
+        <property id="155757643426960268" name="value" index="1tFkXc" />
+      </concept>
       <concept id="6130475724255204270" name="SoseL21.structure.BinaryExpression" flags="ng" index="2tsc2u">
         <child id="6390243527468343126" name="left" index="32kYJR" />
         <child id="6390243527468343130" name="right" index="32kYJV" />
-      </concept>
-      <concept id="2044071986158109157" name="SoseL21.structure.Class" flags="ng" index="E5w51">
-        <child id="2044071986158110037" name="body" index="E5wnL" />
       </concept>
       <concept id="6390243527468343046" name="SoseL21.structure.ExpressionStatement" flags="ng" index="32kYIB">
         <child id="6390243527468343048" name="expression" index="32kYID" />
@@ -120,39 +112,16 @@
         <ref role="14vsOF" node="7Uqh3jdQheo" resolve="a" />
       </node>
     </node>
-    <node concept="32kYIB" id="7Uqh3jdQE0j" role="2pIJhz">
-      <node concept="32kYIY" id="7Uqh3jdQE0s" role="32kYID">
-        <node concept="2pIJhf" id="7Uqh3jdQE0z" role="32kYJR">
-          <property role="32kYIK" value="12" />
-        </node>
-        <node concept="2pIJhf" id="7Uqh3jdQE0A" role="32kYJV">
-          <property role="32kYIK" value="13" />
-        </node>
+    <node concept="32kYIF" id="1Lu0agQkjcY" role="2pIJhz">
+      <property role="TrG5h" value="c" />
+      <node concept="32kYIS" id="1Lu0agQkjd7" role="32kYIE">
+        <property role="1kTE$5" value="&quot;Hello!&quot;" />
       </node>
     </node>
-    <node concept="32kYIF" id="7qwJ5wyxN34" role="2pIJhz">
-      <property role="TrG5h" value="k" />
-      <node concept="2pIJhf" id="7qwJ5wyxN3k" role="32kYIE">
-        <property role="32kYIK" value="12" />
-      </node>
-    </node>
-    <node concept="E5w51" id="1Lu0agQiJhE" role="2pIJhz">
-      <property role="TrG5h" value="AClass" />
-      <node concept="28dhyO" id="1Lu0agQiJhR" role="E5wnL">
-        <property role="TrG5h" value="foo" />
-        <node concept="2pIJhw" id="1Lu0agQjAb4" role="28dhyJ">
-          <ref role="14vsOF" node="7Uqh3jdQheo" resolve="a" />
-        </node>
-        <node concept="28dKTj" id="1Lu0agQiJhV" role="28dhyL">
-          <property role="TrG5h" value="name" />
-          <node concept="32kYIS" id="1Lu0agQiJhZ" role="28dKTg" />
-        </node>
-        <node concept="32kYIF" id="1Lu0agQiJi2" role="28dhyG">
-          <property role="TrG5h" value="a" />
-          <node concept="2pIJhf" id="1Lu0agQiJi6" role="32kYIE">
-            <property role="32kYIK" value="10" />
-          </node>
-        </node>
+    <node concept="32kYIF" id="1Lu0agQkjdE" role="2pIJhz">
+      <property role="TrG5h" value="e" />
+      <node concept="2pIJhZ" id="1Lu0agQkjdR" role="32kYIE">
+        <property role="1tFkXc" value="true" />
       </node>
     </node>
   </node>
