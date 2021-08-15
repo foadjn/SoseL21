@@ -7,60 +7,78 @@
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/Language.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/ConstraintsAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/ConstraintsAspectDescriptor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Reference_Constraints$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Reference_Constraints$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Reference_Constraints$2$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Reference_Constraints$2$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Reference_Constraints$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Reference_Constraints$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Reference_Constraints$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Reference_Constraints$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Reference_Constraints$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Reference_Constraints$CONCEPTS.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Reference_Constraints$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Reference_Constraints$LINKS.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Reference_Constraints.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Reference_Constraints.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/ExpressionStatement_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/ExpressionStatement_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/IfStatement_EditorBuilder_a$statementsListHandler_eb7h0d_a0b0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/IfStatement_EditorBuilder_a$statementsListHandler_eb7h0d_a0b0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/IfStatement_EditorBuilder_a$statementsListHandler_eb7h0d_a1a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/IfStatement_EditorBuilder_a$statementsListHandler_eb7h0d_a1a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Integer_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Integer_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Integer_EditorBuilder_a$valueSingleRoleHandler_9ug0rr_d0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Integer_EditorBuilder_a$valueSingleRoleHandler_9ug0rr_d0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Parameter_EditorBuilder_a$Inline_Builder0$Inline_Builder1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Parameter_EditorBuilder_a$Inline_Builder0$Inline_Builder1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Parameter_EditorBuilder_a$Inline_Builder2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Parameter_EditorBuilder_a$Inline_Builder2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/VariableDeclaration_Constraints$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/VariableDeclaration_Constraints$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/VariableDeclaration_Constraints.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/VariableDeclaration_Constraints.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Variable_Constraints$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Variable_Constraints$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Variable_Constraints$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Variable_Constraints$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Variable_Constraints.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/constraints/Variable_Constraints.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/EditorAspectDescriptorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/EditorAspectDescriptorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/FunctionStatement_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/FunctionStatement_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/FunctionStatement_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/FunctionStatement_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/FunctionStatement_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/FunctionStatement_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/FunctionStatement_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/FunctionStatement_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/FunctionStatement_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/FunctionStatement_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/FunctionStatement_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/FunctionStatement_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/FunctionStatement_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/FunctionStatement_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/FunctionStatement_EditorBuilder_a$bodyListHandler_w6ww8q_a1b0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/FunctionStatement_EditorBuilder_a$bodyListHandler_w6ww8q_a1b0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/FunctionStatement_EditorBuilder_a$paramListHandler_w6ww8q_d0a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/FunctionStatement_EditorBuilder_a$paramListHandler_w6ww8q_d0a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/FunctionStatement_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/FunctionStatement_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_Editor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$Inline_Builder0$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$Inline_Builder0$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$Inline_Builder0$initializerSingleRoleHandler_d3lpcg_a0a1a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$Inline_Builder0$initializerSingleRoleHandler_d3lpcg_a0a1a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$Inline_Builder0$smodelAttributeListHandler_d3lpcg_a0a1a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$Inline_Builder0$smodelAttributeListHandler_d3lpcg_a0a1a.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$LINKS.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a$PROPS.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/Reference_EditorBuilder_a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_EditorBuilder_a$contentsListHandler_pqfyti_a0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_EditorBuilder_a$contentsListHandler_pqfyti_a0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_EditorBuilder_a$contentsListHandler_pqfyti_b0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_EditorBuilder_a$contentsListHandler_pqfyti_b0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_EditorBuilder_a$contentsListHandler_pqfyti_c0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_EditorBuilder_a$contentsListHandler_pqfyti_c0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_EditorBuilder_a$referencesListHandler_pqfyti_c0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_EditorBuilder_a$referencesListHandler_pqfyti_c0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/VariableDeclaration_EditorBuilder_a$Inline_Builder1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/VariableDeclaration_EditorBuilder_a$Inline_Builder1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_EditorBuilder_a$contentsListHandler_pqfyti_a1b0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_EditorBuilder_a$contentsListHandler_pqfyti_a1b0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/SoSeWorksheet_EditorBuilder_a.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/editor/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/intentions/IntentionsDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/intentions/IntentionsDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/intentions/InterpretStat_Intention$IntentionImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/intentions/InterpretStat_Intention$IntentionImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/intentions/InterpretStat_Intention.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/intentions/InterpretStat_Intention.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/structure/ConceptPresentationAspectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/structure/ConceptPresentationAspectImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/structure/LanguageConceptSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/structure/LanguageConceptSwitch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/structure/StructureAspectDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/structure/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/textGen/TextGenAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/textGen/TextGenAspectDescriptor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/typesystem/TypesystemDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/typesystem/TypesystemDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/typesystem/singleReference_NonTypesystemRule$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/typesystem/singleReference_NonTypesystemRule$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/typesystem/singleReference_NonTypesystemRule$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/typesystem/singleReference_NonTypesystemRule$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/typesystem/singleReference_NonTypesystemRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/classes_gen/SoseL21/typesystem/singleReference_NonTypesystemRule.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/generator/source_gen.caches/SoseL21/generator/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/generator/source_gen.caches/SoseL21/generator/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/models/SoseL21.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/models/SoseL21.editor.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/constraints/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/constraints/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/constraints/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/constraints/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/models/SoseL21.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/models/SoseL21.structure.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/editor/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/editor/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen.caches/SoseL21/structure/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/Language.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/constraints/Reference_Constraints.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/constraints/Reference_Constraints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/constraints/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/constraints/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/editor/Reference_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/editor/Reference_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/editor/EditorAspectDescriptorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/editor/EditorAspectDescriptorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/editor/FunctionStatement_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/editor/FunctionStatement_EditorBuilder_a.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/editor/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/intentions/IntentionsDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/intentions/IntentionsDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/structure/ConceptPresentationAspectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/structure/LanguageConceptSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/structure/LanguageConceptSwitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/structure/StructureAspectDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/structure/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/SoseL21/source_gen/SoseL21/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/COPL.Interpreter/COPL.Interpreter.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/COPL.Interpreter/COPL.Interpreter.msd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/Sose21.runtime/classes_gen/runtime/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Sose21.runtime/classes_gen/runtime/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/Sose21.runtime/models/runtime.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Sose21.runtime/models/runtime.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/Sose21.runtime/source_gen.caches/runtime/generated" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Sose21.runtime/source_gen.caches/runtime/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/Sose21.runtime/source_gen/runtime/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Sose21.runtime/source_gen/runtime/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/Sose21.runtime/source_gen/runtime/wk1.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Sose21.runtime/source_gen/runtime/wk1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +99,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="0146ca18-9b8e-460a-aaa0-7c9ae19db955/r:7b5180d0-6919-4fc6-b304-963bc5348d61(TempModule0146ca18-9b8e-460a-aaa0-7c9ae19db955/ConsoleModel_14571482821488)">
+            <model ref="77338800-d9a7-40e4-af9d-7941bca58540/r:fea0f2ad-d1ad-4c57-9533-03697af4c4b5(TempModule77338800-d9a7-40e4-af9d-7941bca58540/ConsoleModel_150281039901400)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -101,11 +119,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="7qwJ5wywK2P">
-                <node concept="3balQm" id="7qwJ5wywK2Q" role="aymYE" />
-                <node concept="2Clz$F" id="7qwJ5wywK2R" role="aymYO" />
-                <node concept="2_V_lH" id="7qwJ5wywK2S" role="1PhJh3">
-                  <ref role="2_V_lI" node="7qwJ5wywK2R" resolve="CommandHolder" />
+              <node concept="aymSD" id="1Lu0agQcvY1">
+                <node concept="3balQm" id="1Lu0agQcvY2" role="aymYE" />
+                <node concept="2Clz$F" id="1Lu0agQcvY3" role="aymYO" />
+                <node concept="2_V_lH" id="1Lu0agQcvY4" role="1PhJh3">
+                  <ref role="2_V_lI" node="1Lu0agQcvY3" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -428,9 +446,7 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
-        <subPane />
-      </pane>
+      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -439,6 +455,58 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:0d111bc5-2e40-4c6a-96bc-7bbd61f45a7c(SoseL21.intentions) in IdeaFile[path: C:/Users/Nina Marie Stewens/Documents/UNI/SS2021/COP/SoseL21/languages/SoseL21/models/SoseL21.intentions.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:22fa5c38-a13e-4244-be0a-1b45691ce23f(SoseL21.constraints) in IdeaFile[path: C:/Users/Nina Marie Stewens/Documents/UNI/SS2021/COP/SoseL21/languages/SoseL21/models/SoseL21.constraints.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a34a55ee-a103-48ae-9f8a-768746b0e547" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:b48c80a6-99d3-4734-a51a-2f6b7b6861cf(runtime) in IdeaFile[path: C:/Users/Nina Marie Stewens/Documents/UNI/SS2021/COP/SoseL21/solutions/Sose21.runtime/models/runtime.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoseL21" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="a34a55ee-a103-48ae-9f8a-768746b0e547" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -453,7 +521,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
+              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:07080f9c-2fcf-445b-8873-07f5fe5e16ed(SoseL21.editor) in IdeaFile[path: C:/Users/Nina Marie Stewens/Documents/UNI/SS2021/COP/SoseL21/languages/SoseL21/models/SoseL21.editor.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -467,21 +539,13 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:22fa5c38-a13e-4244-be0a-1b45691ce23f(SoseL21.constraints) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/languages/SoseL21/models/SoseL21.constraints.mps]" />
+              <option name="myItemId" value="r:3feced63-76c9-43c3-bfaf-118107b568a7(SoseL21.structure) in IdeaFile[path: C:/Users/Nina Marie Stewens/Documents/UNI/SS2021/COP/SoseL21/languages/SoseL21/models/SoseL21.structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:b48c80a6-99d3-4734-a51a-2f6b7b6861cf(runtime) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/solutions/Sose21.runtime/models/runtime.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -499,27 +563,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:60fdcc0d-163f-4a24-a420-f70085826075(COPL.Interpreter.plugin) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/solutions/COPL.Interpreter/models/COPL.Interpreter.plugin.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:07080f9c-2fcf-445b-8873-07f5fe5e16ed(SoseL21.editor) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/languages/SoseL21/models/SoseL21.editor.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoseL21" />
+              <option name="myItemId" value="r:60fdcc0d-163f-4a24-a420-f70085826075(COPL.Interpreter.plugin) in IdeaFile[path: C:/Users/Nina Marie Stewens/Documents/UNI/SS2021/COP/SoseL21/solutions/COPL.Interpreter/models/COPL.Interpreter.plugin.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -539,7 +583,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="a34a55ee-a103-48ae-9f8a-768746b0e547" />
+              <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -549,21 +593,12 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="041f861f-3dcb-4caa-a7ae-06d8c3219692" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:b48c80a6-99d3-4734-a51a-2f6b7b6861cf(runtime) in IdeaFile[path: /home/mda/MPSProjects/SoseL21/solutions/Sose21.runtime/models/runtime.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7715064924272843600" />
+              <option name="myItemId" value="f54c6703-3418-40bc-be93-12879578d6a1(SoseL21)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="FileSystem" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -585,6 +620,9 @@
           </expand>
           <select />
         </subPane>
+      </pane>
+      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
+        <subPane />
       </pane>
       <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
         <subPane />
